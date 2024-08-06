@@ -1,0 +1,11 @@
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\bin\Debug\net8.0\Fences.Model.deps.json
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\bin\Debug\net8.0\Fences.Model.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\bin\Debug\net8.0\Fences.Model.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\Fences.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\Fences.Model.AssemblyInfoInputs.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\Fences.Model.AssemblyInfo.cs
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\Fences.Model.csproj.CoreCompileInputs.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\Fences.Model.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\refint\Fences.Model.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\Fences.Model.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Model\obj\Debug\net8.0\ref\Fences.Model.dll

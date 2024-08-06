@@ -1,0 +1,15 @@
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\bin\Debug\net8.0\Fences.DAL.deps.json
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\bin\Debug\net8.0\Fences.DAL.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\bin\Debug\net8.0\Fences.DAL.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\bin\Debug\net8.0\Fences.Model.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\bin\Debug\net8.0\Fences.Model.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.csproj.AssemblyReference.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.AssemblyInfoInputs.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.AssemblyInfo.cs
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.csproj.CoreCompileInputs.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.csproj.Up2Date
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\refint\Fences.DAL.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\ref\Fences.DAL.dll

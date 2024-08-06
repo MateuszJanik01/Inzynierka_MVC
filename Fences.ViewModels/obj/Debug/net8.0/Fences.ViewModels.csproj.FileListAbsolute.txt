@@ -1,0 +1,15 @@
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\bin\Debug\net8.0\Fences.ViewModels.deps.json
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\bin\Debug\net8.0\Fences.ViewModels.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\bin\Debug\net8.0\Fences.ViewModels.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\bin\Debug\net8.0\Fences.Model.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\bin\Debug\net8.0\Fences.Model.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.csproj.AssemblyReference.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.AssemblyInfoInputs.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.AssemblyInfo.cs
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.V.B895A5E8.Up2Date
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\refint\Fences.ViewModels.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.pdb
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\ref\Fences.ViewModels.dll
