@@ -17,3 +17,4 @@ C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Services\obj\Debug\n
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Services\obj\Debug\net8.0\refint\Fences.Services.dll
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Services\obj\Debug\net8.0\Fences.Services.pdb
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Services\obj\Debug\net8.0\ref\Fences.Services.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Services\obj\Debug\net8.0\Fences.Services.sourcelink.json

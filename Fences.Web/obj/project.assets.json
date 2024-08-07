@@ -1688,6 +1688,9 @@
       "Fences.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "8.0.7"
+        },
         "compile": {
           "bin/placeholder/Fences.Model.dll": {}
         },

@@ -13,3 +13,4 @@ C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\refint\Fences.ViewModels.dll
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.pdb
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\ref\Fences.ViewModels.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.ViewModels\obj\Debug\net8.0\Fences.ViewModels.sourcelink.json

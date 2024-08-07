@@ -13,3 +13,4 @@ C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\refint\Fences.DAL.dll
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.pdb
 C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\ref\Fences.DAL.dll
+C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.DAL\obj\Debug\net8.0\Fences.DAL.sourcelink.json

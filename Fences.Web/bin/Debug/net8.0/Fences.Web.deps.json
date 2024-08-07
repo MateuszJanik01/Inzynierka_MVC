@@ -974,6 +974,9 @@
         }
       },
       "Fences.Model/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "8.0.7"
+        },
         "runtime": {
           "Fences.Model.dll": {}
         }
