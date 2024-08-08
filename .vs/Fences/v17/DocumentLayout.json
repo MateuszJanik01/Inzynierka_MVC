@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27FFD0CE-6C76-4208-966D-55B582C591B1}|Fences.ViewModels\\Fences.ViewModels.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.viewmodels\\vm\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27FFD0CE-6C76-4208-966D-55B582C591B1}|Fences.ViewModels\\Fences.ViewModels.csproj|solutionrelative:fences.viewmodels\\vm\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44D07AE5-2430-4F58-971C-BBDFEF922D46}|Fences.DAL\\Fences.DAL.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.dal\\ef\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44D07AE5-2430-4F58-971C-BBDFEF922D46}|Fences.DAL\\Fences.DAL.csproj|solutionrelative:fences.dal\\ef\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,28 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Fences.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Fences.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:25:52.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.ViewModels\\VM\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Fences.ViewModels\\VM\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.ViewModels\\VM\\ErrorViewModel.cs",
+              "RelativeToolTip": "Fences.ViewModels\\VM\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:25:22.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.DAL\\EF\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Fences.DAL\\EF\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.DAL\\EF\\ApplicationDbContext.cs",
               "RelativeToolTip": "Fences.DAL\\EF\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T17:51:37.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Job.cs",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Model\\DataModels\\Job.cs",
               "RelativeDocumentMoniker": "Fences.Model\\DataModels\\Job.cs",
@@ -47,8 +77,7 @@
               "RelativeToolTip": "Fences.Model\\DataModels\\Job.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:47:59.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:47:59.742Z"
             }
           ]
         }

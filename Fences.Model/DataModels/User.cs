@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-namespace SchoolRegister.Model.DataModels;
+namespace Fences.Model.DataModels;
 public class User : IdentityUser<int>
 {
     public string FirstName { get; set; } = null!;

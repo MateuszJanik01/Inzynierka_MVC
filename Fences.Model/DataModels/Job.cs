@@ -1,11 +1,4 @@
-﻿using SchoolRegister.Model.DataModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fences.Model.DataModels
+﻿namespace Fences.Model.DataModels
 {
     public class Job
     {

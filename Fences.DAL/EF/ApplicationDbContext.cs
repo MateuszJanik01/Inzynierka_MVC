@@ -1,7 +1,6 @@
 ﻿using Fences.Model.DataModels;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SchoolRegister.Model.DataModels;
 
 namespace Fences.DAL.EF
 {
