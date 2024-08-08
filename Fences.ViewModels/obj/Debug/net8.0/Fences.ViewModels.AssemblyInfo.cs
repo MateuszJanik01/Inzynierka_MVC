@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fences.ViewModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebad843bb1615aa98d7501605d343d810f8bb26d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80ebc1d2160e23c99b810450dac7ad4be31c2412")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fences.ViewModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fences.ViewModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
