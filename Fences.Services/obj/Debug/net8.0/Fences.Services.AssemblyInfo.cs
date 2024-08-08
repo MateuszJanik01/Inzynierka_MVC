@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fences.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c17c828bddcf978bc01a01abc70cc0e06952a5d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebad843bb1615aa98d7501605d343d810f8bb26d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fences.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fences.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
