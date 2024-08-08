@@ -11,5 +11,7 @@
         public string ZipCode { get; set; } = null!;
         public virtual JobType JobType { get; set; }
         public string? Description { get; set; }
+        public DateTime RegistrationDate { get; } = DateTime.Now;
+        public DateTime DateOfExecution {  get; set; }
     }
 }
