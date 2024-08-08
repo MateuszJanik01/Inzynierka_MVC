@@ -18,5 +18,7 @@ namespace Fences.Model.DataModels
         public string ZipCode { get; set; } = null!;
         public JobType JobType { get; set; }
         public string? Description { get; set; }
+        public DateTime DateOfCreation { get; } = DateTime.Now;
+        public DateTime DateOfExecute { get; set; }
     }
 }
