@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Fences.Web.Models;
+using Fences.ViewModels.VM;
 
 namespace Fences.Web.Controllers;
 
