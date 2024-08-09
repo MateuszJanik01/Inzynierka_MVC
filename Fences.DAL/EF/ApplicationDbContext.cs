@@ -6,7 +6,7 @@ namespace Fences.DAL.EF
 {
     public class ApplicationDbContext : IdentityDbContext<User, Role, int>
     {
-        public DbSet<Job> Jobs { get; set; }
+        public DbSet<Job> Jobs { get; set; } = null!;
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 

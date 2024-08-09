@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Fences.Services.ConcreteServices
 {
-    public class BaseService
+    public abstract class BaseService
     {
         protected readonly ApplicationDbContext DbContext = null!;
         protected readonly ILogger Logger = null!;
