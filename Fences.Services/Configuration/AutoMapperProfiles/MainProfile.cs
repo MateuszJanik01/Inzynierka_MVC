@@ -10,6 +10,10 @@ namespace Fences.Services.Configuration.AutoMapperProfiles
         public MainProfile() 
         {
             CreateMap<Job, JobVm>();
+
+            CreateMap<RegisterVm, User>()
+                .ForMember(dest => dest.UserName, y => y.MapFrom(src => src.Email))
+                .ForMember(dest => dest.RegistrationDate, y => y.MapFrom(src => DateTime.Now));
         }
     }
 }
