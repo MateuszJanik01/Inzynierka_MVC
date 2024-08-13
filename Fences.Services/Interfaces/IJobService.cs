@@ -6,8 +6,8 @@ namespace Fences.Services.Interfaces
 {
     public interface IJobService
     {
-        IEnumerable<JobVm> GetJobs(Expression<Func<Job, bool>>? filterExpression = null);
-        JobVm GetJob(Expression<Func<Job, bool>>? filterExpression = null);
-        JobVm AddOrUpdateJob(AddOrUpdateJobVm addOrUpdateJobVm);
+        Task<IEnumerable<JobVm>> GetJobsAsync(Expression<Func<Job, bool>>? filterExpression = null);
+        Task<JobVm> GetJobAsync(Expression<Func<Job, bool>>? filterExpression = null);
+        Task<JobVm> AddOrUpdateJobAsync(AddOrUpdateJobVm addOrUpdateJobVm);
     }
 }

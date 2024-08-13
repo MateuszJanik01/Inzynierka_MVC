@@ -3,6 +3,7 @@ using Fences.DAL.EF;
 using Fences.Model.DataModels;
 using Fences.Services.Interfaces;
 using Fences.ViewModels.VM;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
 
@@ -14,7 +15,7 @@ namespace Fences.Services.ConcreteServices
         {
         }
 
-        public JobVm AddOrUpdateJob(AddOrUpdateJobVm addOrUpdateJobVm)
+        public async Task<JobVm> AddOrUpdateJobAsync(AddOrUpdateJobVm addOrUpdateJobVm)
         {
             try
             {
@@ -22,10 +23,10 @@ namespace Fences.Services.ConcreteServices
                     throw new ArgumentNullException($"View model parameter is null");
                 var jobEntity = Mapper.Map<Job>(addOrUpdateJobVm);
                 if (!addOrUpdateJobVm.Id.HasValue || addOrUpdateJobVm.Id == 0)
-                    DbContext.Jobs.Add(jobEntity);
+                    await DbContext.Jobs.AddAsync(jobEntity);
                 else
                     DbContext.Jobs.Update(jobEntity);
-                DbContext.SaveChanges();
+                await DbContext.SaveChangesAsync();
                 var jobVm = Mapper.Map<JobVm>(jobEntity);
                 return jobVm;
             }
@@ -36,13 +37,13 @@ namespace Fences.Services.ConcreteServices
             }
         }
 
-        public JobVm GetJob(Expression<Func<Job, bool>>? filterExpression = null)
+        public async Task<JobVm> GetJobAsync(Expression<Func<Job, bool>>? filterExpression = null)
         {
             try
             {
                 if (filterExpression == null)
                     throw new ArgumentNullException($"Filter expression is null");
-                var jobEntity = DbContext.Jobs.FirstOrDefault(filterExpression);
+                var jobEntity = await DbContext.Jobs.FirstOrDefaultAsync(filterExpression);
                 var jobVm = Mapper.Map<JobVm>(jobEntity);
                 return jobVm;
             }
@@ -53,13 +54,13 @@ namespace Fences.Services.ConcreteServices
             }
         }
 
-        public IEnumerable<JobVm> GetJobs(Expression<Func<Job, bool>>? filterExpression = null)
+        public async Task<IEnumerable<JobVm>> GetJobsAsync(Expression<Func<Job, bool>>? filterExpression = null)
         {
             try
             {
-                var jobEntities = DbContext.Jobs.AsQueryable();
-                if (filterExpression != null)
-                    jobEntities = jobEntities.Where(filterExpression);
+                var jobEntities = filterExpression == null
+                    ? await DbContext.Jobs.ToListAsync()
+                    : await DbContext.Jobs.Where(filterExpression).ToListAsync();
                 var jobVms = Mapper.Map<IEnumerable<JobVm>>(jobEntities);
                 return jobVms;
             }
