@@ -9,9 +9,9 @@
         public string? Street { get; set; }
         public string? Number { get; set; }
         public string ZipCode { get; set; } = null!;
-        public virtual JobType JobType { get; set; }
+        public string JobType { get; set; } = null!;
         public string? Description { get; set; }
-        public DateTime RegistrationDate { get; } = DateTime.Now;
+        public DateTime RegistrationDate { get; set; }
         public DateTime DateOfExecution {  get; set; }
     }
 }

@@ -9,5 +9,6 @@ namespace Fences.Services.Interfaces
         Task<IEnumerable<JobVm>> GetJobsAsync(Expression<Func<Job, bool>>? filterExpression = null);
         Task<JobVm> GetJobAsync(Expression<Func<Job, bool>>? filterExpression = null);
         Task<JobVm> AddOrUpdateJobAsync(AddOrUpdateJobVm addOrUpdateJobVm);
+        Task DeleteJobAsync(JobVm jobVm);
     }
 }

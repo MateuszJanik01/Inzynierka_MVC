@@ -1,8 +1,7 @@
 ﻿namespace Fences.Model.DataModels
 {
-    public enum JobType
+    public class JobType
     {
-        Płot,
-        Wiata
+        public string Type { get; } = null!;
     }
 }

@@ -1,0 +1,109 @@
+@model IEnumerable<Fences.ViewModels.VM.JobVm>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@if (User.IsInRole("User"))
+{
+    <p>
+        <a asp-action="AddOrUpdateJob">Create New</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>
+            }
+            <th>
+                @Html.DisplayNameFor(model => model.Town)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Street)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZipCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegistrationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfExecution)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            @if (User.IsInRole("Admin"))
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.Town)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Street)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZipCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegistrationDate)
+            </td>
+            <td>
+                @item.DateOfExecution.ToShortDateString()
+            </td>
+            <td>
+                    @if(User.IsInRole("User"))
+                    {
+                        <a asp-controller="Job" asp-action="AddOrUpdateJob" asp-route-id="@item.Id">Edit</a>
+                        @:|
+                        <a asp-controller="Job" asp-action="DeleteJob" asp-route-id="@item.Id">Delete</a>
+                    }
+                    @if(User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Job" asp-action="AddOrUpdateJob" asp-route-id="@item.Id">Edit</a>
+                        @:|
+                        <a asp-controller="Job" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        @:|
+                        <a asp-controller="Job" asp-action="DeleteJob" asp-route-id="@item.Id">Delete</a>
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

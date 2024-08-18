@@ -3,6 +3,7 @@ using Fences.DAL.EF;
 using Fences.Model.DataModels;
 using Fences.Services.Interfaces;
 using Fences.ViewModels.VM;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
@@ -63,6 +64,24 @@ namespace Fences.Services.ConcreteServices
                     : await DbContext.Jobs.Where(filterExpression).ToListAsync();
                 var jobVms = Mapper.Map<IEnumerable<JobVm>>(jobEntities);
                 return jobVms;
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, ex.Message);
+                throw;
+            }
+        }
+        public async Task DeleteJobAsync(JobVm jobVm)
+        {
+            try
+            {
+                var jobEntity = await DbContext.Jobs.FirstOrDefaultAsync(j => j.Id == jobVm.Id);
+                if (jobEntity == null)
+                {
+                    throw new ArgumentException($"Job with Id {jobVm.Id} not found");
+                }
+                DbContext.Jobs.Remove(jobEntity);
+                await DbContext.SaveChangesAsync();
             }
             catch (Exception ex)
             {

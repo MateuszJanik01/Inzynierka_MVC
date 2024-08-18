@@ -39,11 +39,15 @@ namespace Fences.DAL.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("JobType")
-                        .HasColumnType("int");
+                    b.Property<string>("JobType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Number")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Street")
                         .HasColumnType("nvarchar(max)");
