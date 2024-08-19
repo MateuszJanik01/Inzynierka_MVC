@@ -27,6 +27,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Town)
             </th>
+            @if (User.IsInRole("User")) {
             <th>
                 @Html.DisplayNameFor(model => model.Street)
             </th>
@@ -36,6 +37,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.ZipCode)
             </th>
+            }
             <th>
                 @Html.DisplayNameFor(model => model.JobType)
             </th>
@@ -66,15 +68,17 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Town)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Street)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Number)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ZipCode)
-            </td>
+            @if (User.IsInRole("User")) {
+                <td>
+                    @Html.DisplayFor(modelItem => item.Street)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ZipCode)
+                </td>
+            }
             <td>
                 @Html.DisplayFor(modelItem => item.JobType)
             </td>
@@ -102,7 +106,7 @@
                         @:|
                         <a asp-controller="Job" asp-action="DeleteJob" asp-route-id="@item.Id">Delete</a>
                     }
-                </td>
+            </td>
         </tr>
 }
     </tbody>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fences.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91dc965ea8fe4dd1d5d96729c545980b12bd16bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf35ef0648b92a1f4e0b2946a306e5b30e4c1ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fences.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fences.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

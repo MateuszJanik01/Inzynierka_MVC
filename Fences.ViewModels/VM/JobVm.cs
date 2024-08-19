@@ -10,8 +10,10 @@ namespace Fences.ViewModels.VM
     public class JobVm
     {
         public int Id { get; set; }
-        public string UserName { get; set; } = null!;
         public int UserId { get; set; }
+        public string UserName { get; set; } = null!;
+        public string UserEmail { get; set; } = null!;
+        public string UserPhoneNumber { get; set; } = null!;
         public string Town { get; set; } = null!;
         public string? Street { get; set; }
         public string? Number { get; set; }

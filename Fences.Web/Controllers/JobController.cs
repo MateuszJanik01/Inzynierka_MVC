@@ -54,7 +54,12 @@ namespace Fences.Web.Controllers
             
             ViewBag.FenceTypes = new SelectList(fenceTypes, "Value", "Text");
 
-            if(id.HasValue)
+            var jobs = await _jobService.GetJobsAsync();
+            var takenDates = jobs.Select(j => j.DateOfExecution).ToList();
+
+            ViewBag.TakenDates = takenDates.Select(d => d.ToString("yyyy-MM-dd")).ToList();
+
+            if (id.HasValue)
             {
                 var jobVm = await _jobService.GetJobAsync(x => x.Id == id);
                 ViewBag.ActionType = "Edit";
@@ -64,11 +69,23 @@ namespace Fences.Web.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Details (int id)
         {
-            var jobVm = await _jobService.GetJobsAsync(x => x.Id == id);
-            return View(jobVm);
+            var job = await _jobService.GetJobAsync(j => j.Id == id);
+            Console.WriteLine(job.RegistrationDate);
+
+            if (job == null)
+            {
+                return NotFound();
+            }
+
+            string fullAddress = $"{job.Street} {job.Number}, {job.Town}, {job.ZipCode}";
+            string apiKey = "AIzaSyDsQzCFukD06XdkwG3--IsJRV3XGvkTajA";
+            ViewBag.GoogleMapsUrl = $"https://www.google.com/maps/embed/v1/place?key={apiKey}&q={Uri.EscapeDataString(fullAddress)}";
+
+            return View(job);
+
         }
 
         [HttpPost]

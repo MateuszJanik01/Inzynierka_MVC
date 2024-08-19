@@ -61,7 +61,7 @@ namespace Fences.Services.ConcreteServices
             {
                 var jobEntities = filterExpression == null
                     ? await DbContext.Jobs.ToListAsync()
-                    : await DbContext.Jobs.Where(filterExpression).ToListAsync();
+                    : await DbContext.Jobs.Where(filterExpression).OrderBy(j => j.DateOfExecution).ToListAsync();
                 var jobVms = Mapper.Map<IEnumerable<JobVm>>(jobEntities);
                 return jobVms;
             }
