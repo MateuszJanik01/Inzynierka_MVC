@@ -1,5 +1,7 @@
 @model Fences.ViewModels.VM.AddOrUpdateJobVm
 
+
+
 @{
     ViewData["Title"] = $"{ViewBag.ActionType} Job";
 }
@@ -52,7 +54,7 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="DateOfExecution" class="control-label"></label>
-                    <input asp-for="DateOfExecution" class="form-control" type="date" />
+                    <input asp-for="DateOfExecution" class="form-control datepicker" type="text" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
                     <span asp-validation-for="DateOfExecution" class="text-danger"></span>
                 </div>
                 <div class="form-group" hidden>
@@ -95,13 +97,13 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="DateOfExecution" class="control-label"></label>
-                    <input asp-for="DateOfExecution" class="form-control" type="date" id="dateOfExecution" />
+                    <input asp-for="DateOfExecution" class="form-control datepicker" type="text" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
                     <span asp-validation-for="DateOfExecution" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Description" class="control-label"></label>
-                <textarea asp-for="Description" class="form-control"></textarea>
-                <span asp-validation-for="Description" class="text-danger"></span>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
             }
             <div class="form-group">
@@ -118,38 +120,36 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 
-    <script>
-        // Lista zajêtych dat (przekazana z kontrolera)
-        var takenDates = @Html.Raw(Json.Serialize(ViewBag.TakenDates));
 
-        // Funkcja sprawdzaj¹ca, czy data jest zajêta
-        function isDateTaken(date) {
-            return takenDates.includes(date.toISOString().split('T')[0]);
-        }
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap Datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
 
-        // Funkcja do wy³¹czania zajêtych dat
-        function updateDateInput() {
-            var dateInput = document.getElementById('dateOfExecution');
-            var today = new Date();
-            var minDate = today.toISOString().split('T')[0];
-            var maxDate = new Date();
-            maxDate.setFullYear(today.getFullYear() + 1); // Ustawiamy maksymaln¹ datê na rok do przodu
-            maxDate = maxDate.toISOString().split('T')[0];
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstrap 4 JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Datepicker JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <!-- Plik jêzykowy dla jQuery datepicker (Polski) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.pl.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var datesForDisable = "@ViewBag.DisabledDates".split(",");
 
-            // Ustawiamy min i max datê dla inputu
-            dateInput.setAttribute('min', minDate);
-            dateInput.setAttribute('max', maxDate);
-
-            // Nas³uchujemy zmian daty
-            dateInput.addEventListener('change', function (e) {
-                var selectedDate = new Date(e.target.value);
-                if (isDateTaken(selectedDate)) {
-                    e.target.value = ''; // Resetuj pole
-                }
+            $('.datepicker').datepicker({
+                format: 'yyyy-mm-dd',
+                autoclose: true,
+                todayHighlight: true,
+                startDate: new Date(),
+                datesDisabled: datesForDisable,
+                language: 'pl',
+                daysOfWeekDisabled: [0]
             });
-        }
-
-        // Wywo³ujemy funkcjê blokuj¹c¹ zajête daty przy ³adowaniu strony
-        document.addEventListener('DOMContentLoaded', updateDateInput);
+        });
     </script>
 }
+    

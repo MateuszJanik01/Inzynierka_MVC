@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
 namespace Fences.Web.Controllers
 {
     [Authorize (Roles = "Admin, User")]
+
     public class JobController : BaseController 
     {
         private readonly IJobService _jobService;
@@ -21,6 +23,17 @@ namespace Fences.Web.Controllers
             _jobService = jobService;
             _userManager = userManager;
         }
+
+        
+        [BindProperty]
+        public ManageBooking? manageBooking { get; set; }
+
+        public class ManageBooking
+        {
+            public DateTime BookingDate { get; set; }
+            public string? DisabledDate { get; set; }
+        }
+        
 
         public async Task<IActionResult> Index()
         {
@@ -54,10 +67,20 @@ namespace Fences.Web.Controllers
             
             ViewBag.FenceTypes = new SelectList(fenceTypes, "Value", "Text");
 
-            var jobs = await _jobService.GetJobsAsync();
-            var takenDates = jobs.Select(j => j.DateOfExecution).ToList();
 
-            ViewBag.TakenDates = takenDates.Select(d => d.ToString("yyyy-MM-dd")).ToList();
+            
+            var jobs = await _jobService.GetJobsAsync();
+            var occupiedDates = jobs.Select(job => job.DateOfExecution.ToString("yyyy-MM-dd")).Distinct().ToList();
+
+            manageBooking = new ManageBooking()
+            {
+                BookingDate = DateTime.Now,
+                DisabledDate = string.Join(",", occupiedDates)
+            };
+
+            ViewBag.DisabledDates = manageBooking.DisabledDate;
+
+
 
             if (id.HasValue)
             {
@@ -73,7 +96,6 @@ namespace Fences.Web.Controllers
         public async Task<IActionResult> Details (int id)
         {
             var job = await _jobService.GetJobAsync(j => j.Id == id);
-            Console.WriteLine(job.RegistrationDate);
 
             if (job == null)
             {
