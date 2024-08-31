@@ -24,17 +24,6 @@ namespace Fences.Web.Controllers
             _userManager = userManager;
         }
 
-        
-        [BindProperty]
-        public ManageBooking? manageBooking { get; set; }
-
-        public class ManageBooking
-        {
-            public DateTime BookingDate { get; set; }
-            public string? DisabledDate { get; set; }
-        }
-        
-
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -71,14 +60,9 @@ namespace Fences.Web.Controllers
             
             var jobs = await _jobService.GetJobsAsync();
             var occupiedDates = jobs.Select(job => job.DateOfExecution.ToString("yyyy-MM-dd")).Distinct().ToList();
+            var disabledDates = string.Join(",", occupiedDates);
 
-            manageBooking = new ManageBooking()
-            {
-                BookingDate = DateTime.Now,
-                DisabledDate = string.Join(",", occupiedDates)
-            };
-
-            ViewBag.DisabledDates = manageBooking.DisabledDate;
+            ViewBag.DisabledDates = disabledDates;
 
 
 
