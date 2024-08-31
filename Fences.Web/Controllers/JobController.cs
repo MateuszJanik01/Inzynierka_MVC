@@ -59,7 +59,7 @@ namespace Fences.Web.Controllers
 
             
             var jobs = await _jobService.GetJobsAsync();
-            var occupiedDates = jobs.Select(job => job.DateOfExecution.ToString("yyyy-MM-dd")).Distinct().ToList();
+            var occupiedDates = jobs.Select(job => job.DateOfExecution.ToString("yyyy-MM-dd")).ToList();
             var disabledDates = string.Join(",", occupiedDates);
 
             ViewBag.DisabledDates = disabledDates;
