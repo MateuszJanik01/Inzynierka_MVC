@@ -2,7 +2,110 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<section>
+<div class="container-fluid p-0">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <!--<img src="~/img/1.jpg" class="d-block w-100" alt="...">-->
+                <div class="carousel-image img-1 w-100"></div>
+                <div class="carousel-caption carousel-caption--left d-none d-md-block px-5">
+                    <h1>Ogrodzenia betonowe</h1>
+                    <p>Nasze ogrodzenia betonowe są na lata.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <!--<img src="~/img/5.jpg" class="d-block w-100" alt="...">-->
+                <div class="carousel-image img-2 w-100"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Ogrodzenia panelowe</h1>
+                    <p>Ogrodzenia panelowe to idealne rozwiązanie dla osób ceniących trwałość i elegancję.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--<img src="~/img/3.jpg" class="d-block w-100" alt="...">-->
+                <div class="carousel-image img-3 w-100"></div>
+                <div class="carousel-caption carousel-caption--right d-none d-md-block px-5">
+                    <h1>Wiaty</h1>
+                    <p>Nasze wiaty są wszechstronne i uniwersalne.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 </div>
+</section>
+<section class="py-4">
+    <div class="container" id="offer">
+        <h2 class="section-title">oferta</h2>
+        <div class="underline"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6 text-sm-end section-description">
+                <h3>Ogrodzenia betonowe</h3>
+                <p>Nasze ogrodzenia betonowe to połączenie solidności i estetyki. Dzięki nowoczesnym technologiom produkcji zapewniają one nie tylko wysoką trwałość, ale również elegancki wygląd, który doskonale komponuje się z otoczeniem. Idealne do ochrony Twojej posesji, zapewniają prywatność i bezpieczeństwo na lata.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="section-image"></div>
+            </div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <div class="row align-items-center flex-row-reverse">
+            <div class="col-md-6">
+                <h3>Ogrodzenia panelowe</h3>
+                <p>Ogrodzenia panelowe to idealne rozwiązanie dla tych, którzy szukają nowoczesnego i funkcjonalnego ogrodzenia. Charakteryzują się one dużą wytrzymałością oraz łatwością montażu, co sprawia, że są niezwykle popularne zarówno wśród klientów indywidualnych, jak i firm. Dzięki różnorodności wzorów i kolorów, ogrodzenia panelowe doskonale wpasują się w każdą przestrzeń.</p>
+            </div>
+            <div class="col-md-6 section-description">
+                <div class="section-image"></div>
+            </div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <div class="row align-items-center">
+            <div class="col-md-6 text-sm-end section-description">
+                <h3>Wiaty</h3>
+                <p>Wiaty to praktyczne i estetyczne rozwiązanie, które doskonale sprawdzi się jako zadaszenie dla samochodów, sprzętu ogrodniczego, czy miejsca do wypoczynku na świeżym powietrzu. Wykonane z wysokiej jakości materiałów, nasze wiaty są odporne na warunki atmosferyczne, zapewniając długotrwałą ochronę. Dzięki różnorodnym stylom i wymiarom, każda wiata może być idealnie dopasowana do indywidualnych potrzeb i charakteru Twojej posesji.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="section-image"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section aboutus py-4">
+    <div class="container" id="aboutus">
+        <h2 class="section-title">O nas</h2>
+        <div class="underline"></div>
+        <p class="text-center">Nasza firma specjalizuje się w profesjonalnym montażu ogrodzeń betonowych i panelowych oraz wiat. Od lat dostarczamy naszym klientom solidne i estetyczne rozwiązania, które zapewniają bezpieczeństwo i trwałość na długie lata. Dzięki doświadczeniu i zaangażowaniu naszych fachowców, każdy projekt realizujemy z dbałością o szczegóły i zgodnie z najwyższymi standardami. Stawiamy na jakość wykonania oraz terminowość, aby spełniać oczekiwania nawet najbardziej wymagających klientów.</p>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 text-center py-1">
+                <i class="fa-solid fa-route"></i>
+                <p class="aboutus-icon-title pt-2">Szeroki Zasięg Usług</p>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center py-1">
+                <i class="fa-regular fa-handshake"></i>
+                <p class="aboutus-icon-title pt-2">Zaufanie i Profesjonalizm</p>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center py-1">
+                <i class="fa-solid fa-tape"></i>
+                <p class="aboutus-icon-title pt-2">Precyzja i Dokładność</p>
+            </div>
+        </div>
+    </div>
+</section>
