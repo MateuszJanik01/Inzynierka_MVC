@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Fences.ViewModels.VM;
+using Fences.Model.DataModels;
 
 namespace Fences.Web.Controllers;
 
@@ -14,11 +15,6 @@ public class HomeController : Controller
     }
 
     public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
     {
         return View();
     }

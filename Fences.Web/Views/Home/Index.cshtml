@@ -47,6 +47,7 @@
     </div>
 </div>
 </section>
+
 <section class="py-4">
     <div class="container" id="offer">
         <h2 class="section-title">oferta</h2>
@@ -55,7 +56,7 @@
             <div class="col-md-6 text-sm-end section-description">
                 <h4>Ogrodzenia betonowe</h4>
                 <p class="m-0">Nasze ogrodzenia betonowe to połączenie solidności i estetyki. Dzięki nowoczesnym technologiom produkcji zapewniają one nie tylko wysoką trwałość, ale również elegancki wygląd, który doskonale komponuje się z otoczeniem.</p>
-                <a class="see-more my-3">Zobacz więcej</a>
+                <a href="#concreteFence" class="see-more my-3">Zobacz więcej</a>
             </div>
             <div class="col-md-6">
                 <div class="section-image"></div>
@@ -68,7 +69,7 @@
             <div class="col-md-6">
                 <h4>Ogrodzenia panelowe</h4>
                 <p class="m-0">Ogrodzenia panelowe to idealne rozwiązanie dla tych, którzy szukają nowoczesnego i funkcjonalnego ogrodzenia. Charakteryzują się one dużą wytrzymałością oraz łatwością montażu, co sprawia, że są niezwykle popularne zarówno wśród klientów indywidualnych, jak i firm.</p>
-                <a class="see-more my-3">Zobacz więcej</a>
+                <a href="#panelFence" class="see-more my-3">Zobacz więcej</a>
             </div>
             <div class="col-md-6 section-description">
                 <div class="section-image"></div>
@@ -81,7 +82,7 @@
             <div class="col-md-6 text-sm-end section-description">
                 <h4>Wiaty</h4>
                 <p class="m-0">Wiaty to praktyczne i estetyczne rozwiązanie, które doskonale sprawdzi się jako zadaszenie dla samochodów, sprzętu ogrodniczego, czy miejsca do wypoczynku na świeżym powietrzu. Wykonane z wysokiej jakości materiałów, nasze wiaty są odporne na warunki atmosferyczne, zapewniając długotrwałą ochronę.</p>
-                <a class="see-more my-3">Zobacz więcej</a>
+                <a href="#shed" class="see-more my-3">Zobacz więcej</a>
             </div>
             <div class="col-md-6">
                 <div class="section-image"></div>
@@ -113,9 +114,43 @@
     </div>
 </section>
 
-<section class="section contact py-4">
+<section class="section contact py-4" id="contact">
     <div class="container">
         <h2 class="section-title">Kontakt</h2>
         <div class="underline"></div>
+        <div class="row">
+            <div class="row col-xl-6">
+                <div class="contact-data col-md-6">
+                    <div class="d-flex gap-2">
+                        <i class="fa-solid fa-location-dot mt-1"></i>
+                        <p><strong>Fences.Web</strong><br />ul. Henryka Dąbrowskiego 69<br />42-201 Częstochowa</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa-solid fa-envelope mt-1"></i>                    
+                        <a href="mailto:fences@fences.web.pl"><strong>fences@fences.web.pl</strong></a>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa-solid fa-phone-flip mt-1"></i>
+                        <a href="tel:+48123456789"><strong>+48 123 456 789</strong></a>
+                    </div>
+                </div>
+
+                <div class="contact-form col-md-6">
+                    <form method="post">
+                        <label for="name">Imię i Nazwisko</label>
+                        <input id="name" name="name" type="text" />
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" />
+                        <label for="content">Treść wiadomości</label>
+                        <textarea maxlength="200" id="content" name="content"></textarea>
+                        <button type="button" id="submitFormBtn">Wyślij wiadomość</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-6 contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.5438347220165!2d19.108977476477047!3d50.821089860608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710b5d56dfb56a3%3A0x454b1a87aef92039!2sGenera%C5%82a%20Jana%20Henryka%20D%C4%85browskiego%2069%2C%2042-218%20Cz%C4%99stochowa!5e0!3m2!1spl!2spl!4v1725557536271!5m2!1spl!2spl" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
     </div>
 </section>

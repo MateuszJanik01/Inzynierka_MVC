@@ -21,6 +21,10 @@ body {
 
 /* NAV */
 
+nav button.nav-link.btn.btn-link.text-dark {
+    outline: none;
+}
+
 a.navbar-brand {
     font-size: 1.5rem;
     color: black;
@@ -40,9 +44,14 @@ span.navbar-toggler-icon {
     color: black;
 }
 
-.navbar-light .navbar-nav a.nav-link:hover, button.nav-link.btn.btn-link.text-dark:hover {
-    color: #FFF6E9;
+.navbar-light .navbar-nav a.nav-link:hover, button.nav-link.btn.btn-link.text-dark:hover, .navbar-light .navbar-nav a.nav-link:focus, button.nav-link.btn.btn-link.text-dark:focus {
+    color: black;
     background-color: #0D9276;
+}
+
+nav button.nav-link.btn.btn-link.text-dark, nav button.nav-link.btn.btn-link.text-dark:focus {
+    border-color: transparent;
+    outline: none;
 }
 
 a.navbar-brand, .navbar-nav .nav-link {
@@ -156,7 +165,7 @@ section .container hr {
 }
 
 .aboutus i {
-    font-size: 8rem;
+    font-size: 7rem;
 }
 
 .aboutus-icon-title {
@@ -169,6 +178,76 @@ section .container hr {
     margin-bottom: 1px;
     color: #FFF6E9;
 }
+
+.contact-data {
+    font-size: 1.1rem;
+}
+.contact-data a {
+    margin-bottom: 1rem;
+}
+
+.contact-data a {
+    text-decoration: none;
+    color: #FFF6E9;
+}
+
+.contact-data i {
+    color: #0D9276;
+}
+
+.contact-form label, .contact-form input, .contact-form button {
+    display: block;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    outline: none;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.contact-form button {
+    outline: none;
+}
+
+.contact-form textarea {
+    max-height: 300px;
+    height: 130px
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: solid;
+    outline-color: #0D9276;
+}
+
+.contact-form button {
+    border: 1px solid #0D9276;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    background-color: #2e2e2e;
+    color: #FFF6E9;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-form button:hover, .contact-form button:focus {
+    background-color: #0D9276;
+    color: #2e2e2e;
+}
+
+@media(max-width: 1200px) {
+    .contact-map {
+        margin-top: 2rem;
+    }
+}
+
 /* FOOTER */
 footer p {
     text-align: center;
@@ -178,6 +257,8 @@ footer p {
 footer, .contact {
     background-color: #2e2e2e;
 }
+
+
 
 /* MEDIA */
 
