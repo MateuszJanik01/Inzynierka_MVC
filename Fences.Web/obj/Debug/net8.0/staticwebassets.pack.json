@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\1.jpg",
-      "PackagePath": "staticwebassets\\img\\1.jpg"
-    },
-    {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\10.jpg",
       "PackagePath": "staticwebassets\\img\\10.jpg"
     },
@@ -25,12 +21,72 @@
       "PackagePath": "staticwebassets\\img\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\2.jpg",
-      "PackagePath": "staticwebassets\\img\\2.jpg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12.jpeg",
+      "PackagePath": "staticwebassets\\img\\12.jpeg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\3.jpg",
-      "PackagePath": "staticwebassets\\img\\3.jpg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13.jpeg",
+      "PackagePath": "staticwebassets\\img\\13.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpeg",
+      "PackagePath": "staticwebassets\\img\\14.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpeg",
+      "PackagePath": "staticwebassets\\img\\15.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpeg",
+      "PackagePath": "staticwebassets\\img\\16.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpeg",
+      "PackagePath": "staticwebassets\\img\\17.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18.jpeg",
+      "PackagePath": "staticwebassets\\img\\18.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19.jpeg",
+      "PackagePath": "staticwebassets\\img\\19.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\1_LG.jpg",
+      "PackagePath": "staticwebassets\\img\\1_LG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\1_MD.jpg",
+      "PackagePath": "staticwebassets\\img\\1_MD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\1_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\1_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\1_XL.jpg",
+      "PackagePath": "staticwebassets\\img\\1_XL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\2_XL.jpg",
+      "PackagePath": "staticwebassets\\img\\2_XL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\3_LG.jpg",
+      "PackagePath": "staticwebassets\\img\\3_LG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\3_MD.jpg",
+      "PackagePath": "staticwebassets\\img\\3_MD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\3_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\3_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\3_XL.jpg",
+      "PackagePath": "staticwebassets\\img\\3_XL.jpg"
     },
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\4.jpg",
@@ -41,8 +97,20 @@
       "PackagePath": "staticwebassets\\img\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\6.jpg",
-      "PackagePath": "staticwebassets\\img\\6.jpg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\6_LG.jpg",
+      "PackagePath": "staticwebassets\\img\\6_LG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\6_MD.jpg",
+      "PackagePath": "staticwebassets\\img\\6_MD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\6_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\6_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\6_XL.jpg",
+      "PackagePath": "staticwebassets\\img\\6_XL.jpg"
     },
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\7.jpg",
@@ -55,6 +123,18 @@
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9.jpg",
       "PackagePath": "staticwebassets\\img\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9_LG.jpg",
+      "PackagePath": "staticwebassets\\img\\9_LG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9_MD.jpg",
+      "PackagePath": "staticwebassets\\img\\9_MD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\9_SM.jpg"
     },
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\js\\site.js",

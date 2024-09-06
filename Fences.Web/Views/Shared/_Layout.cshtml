@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Fences.Web.styles.css" asp-append-version="true" />
+
+    <!-- Meta tags-->
+    <meta name="author" content="Twoja Firma" />
+    <meta name="theme-color" content="#007bff" />
+    <meta name="description" content="Zarządzaj harmonogramem prac związanych z montażem ogrodzeń betonowych, panelowych oraz wiat. System Fences pozwala na efektywne dodawanie i aktualizowanie prac, ustawianie terminów realizacji oraz rodzaju prac." />
+    <meta name="keywords" content="montaż ogrodzeń, ogrodzenia betonowe, ogrodzenia panelowe, montaż wiat, harmonogram prac, zarządzanie pracami, budowa, prace budowlane" />
+    <meta name="robots" content="index, follow" />
+
 </head>
 <body>
     <header>
@@ -20,13 +28,13 @@
                 <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a href="#offer" class="nav-link">Oferta</a>
+                            <a asp-controller="Home" asp-action="Index" asp-route-fragment="#offer" class="nav-link">Oferta</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#aboutus" class="nav-link">O Nas</a>
+                            <a asp-controller="Home" asp-action="Index" asp-route-fragment="#aboutus" class="nav-link">O Nas</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#gallery" class="nav-link">Galeria</a>
+                            <a asp-controller="Home" asp-action="Index" asp-route-fragment="#gallery" class="nav-link">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="nav-link">Kontakt</a>

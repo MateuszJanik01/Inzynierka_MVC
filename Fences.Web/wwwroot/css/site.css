@@ -19,6 +19,10 @@ body {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+iframe {
+    border: 0;
+}
+
 /* NAV */
 
 nav button.nav-link.btn.btn-link.text-dark {
@@ -90,17 +94,59 @@ button.nav-link.btn.btn-link.text-dark {
 
 .img-1 {
     background-position: bottom 80% right 50%;
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/1_SM.jpg");
 }
 
 .img-2 {
     background-position: bottom 55% right 50%;
-    background-image: url("../img/3.jpg");
+    background-image: url("../img/3_SM.jpg");
 }
 
 .img-3 {
     background-position: center;
-    background-image: url("../img/9.jpg");
+    background-image: url("../img/9_SM.jpg");
+}
+
+@media(min-width: 768px) {
+    .img-1 {
+        background-image: url("../img/1_MD.jpg");
+    }
+
+    .img-2 {
+        background-image: url("../img/3_MD.jpg");
+    }
+
+    .img-3 {
+        background-image: url("../img/9_MD.jpg");
+    }
+}
+
+@media(min-width: 992px) {
+    .img-1 {
+        background-image: url("../img/1_LG.jpg");
+    }
+
+    .img-2 {
+        background-image: url("../img/3_LG.jpg");
+    }
+
+    .img-3 {
+        background-image: url("../img/9_LG.jpg");
+    }
+}
+
+@media(min-width: 1200px) {
+    .img-1 {
+        background-image: url("../img/1_XL.jpg");
+    }
+
+    .img-2 {
+        background-image: url("../img/3_XL.jpg");
+    }
+
+    .img-3 {
+        background-image: url("../img/9_XL.jpg");
+    }
 }
 
 .carousel-caption {
@@ -135,8 +181,44 @@ button.nav-link.btn.btn-link.text-dark {
     width: 100%;
     height: 300px;
     background-size: cover;
+}
+
+.img-concrete {
+    background-image: url("../img/6_SM.jpg");
     background-position: bottom 70% left 50%;
-    background-image: url("../img/6.jpg");
+}
+
+@media(min-width: 768px) {
+    .img-concrete {
+        background-image: url("../img/6_MD.jpg");
+    }
+}
+
+@media(min-width: 992px) {
+    .img-concrete {
+        background-image: url("../img/6_LG.jpg");
+    }
+}
+
+@media(min-width: 1200px) {
+    .img-concrete {
+        background-image: url("../img/6_XL.jpg");
+    }
+}
+
+.img-panel {
+    background-image: url("../img/6_SM.jpg");
+    background-position: bottom 70% left 50%;
+}
+/* Add queries to img */
+
+.img-shed {
+    background-image: url("../img/11.jpg");
+    background-position: bottom 70% left 50%;
+}
+
+.section-description h3 {
+    font-size: 1.4rem;
 }
 
 section .container hr {
