@@ -65,3 +65,5 @@ document.getElementById('submitFormBtn').addEventListener('click', function () {
         clearForm();
     }
 });
+
+// Funkcje do galerii

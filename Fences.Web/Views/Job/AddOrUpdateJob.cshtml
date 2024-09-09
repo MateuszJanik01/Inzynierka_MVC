@@ -1,10 +1,10 @@
 @model Fences.ViewModels.VM.AddOrUpdateJobVm
 
-
-
 @{
     ViewData["Title"] = $"{ViewBag.ActionType} Job";
 }
+
+<div class="container mb-4">
 
 <h1>AddOrUpdateJob</h1>
 
@@ -115,6 +115,8 @@
 
 <div>
     <a asp-action="Index" class="mt-3">Back to List</a>
+</div>
+
 </div>
 
 @section Scripts {

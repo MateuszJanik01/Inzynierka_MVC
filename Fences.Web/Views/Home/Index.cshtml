@@ -1,4 +1,9 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@using Fences.Model.DataModels
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -48,6 +53,28 @@
 </div>
 </section>
 
+<section class="section aboutus py-4" id="aboutus">
+    <div class="container">
+        <h2 class="section-title">O nas</h2>
+        <div class="underline"></div>
+        <p class="text-center">Nasza firma specjalizuje się w profesjonalnym montażu ogrodzeń betonowych i panelowych oraz wiat. Od lat dostarczamy naszym klientom solidne i estetyczne rozwiązania, które zapewniają bezpieczeństwo i trwałość na długie lata. Dzięki doświadczeniu i zaangażowaniu naszych fachowców, każdy projekt realizujemy z dbałością o szczegóły i zgodnie z najwyższymi standardami. Stawiamy na jakość wykonania oraz terminowość, aby spełniać oczekiwania nawet najbardziej wymagających klientów.</p>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 text-center py-1">
+                <i class="fa-solid fa-route"></i>
+                <p class="aboutus-icon-title pt-2">Szeroki Zasięg Usług</p>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center py-1">
+                <i class="fa-regular fa-handshake"></i>
+                <p class="aboutus-icon-title pt-2">Zaufanie i Profesjonalizm</p>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center py-1">
+                <i class="fa-solid fa-tape"></i>
+                <p class="aboutus-icon-title pt-2">Precyzja i Dokładność</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="py-4">
     <div class="container" id="offer">
         <h2 class="section-title">oferta</h2>
@@ -89,30 +116,56 @@
             </div>
         </div>
 
+        <div class="text-center mt-5 mb-2">
+            <p class="lead">Nie czekaj! Zainwestuj w solidne i estetyczne ogrodzenie, które spełni Twoje oczekiwania. <br />Nasze produkty to gwarancja jakości, trwałości i nowoczesnego designu.</p>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                if(User.IsInRole("Admin"))
+                {
+                    <a asp-controller="Job" asp-action="Index" class="place-order">Moje zlecenia</a>
+                } else
+                {
+                    <a asp-controller="Job" asp-action="AddOrUpdateJob" class="place-order">Złóż zamówienie</a>
+                }
+            }
+            else
+            {
+                <a asp-area="Identity" asp-page="/Account/Login" class="place-order">Złóż zamówienie</a>
+            }
+        </div>
+
     </div>
 </section>
 
-<section class="section aboutus py-4">
-    <div class="container" id="aboutus">
-        <h2 class="section-title">O nas</h2>
+<section class="section gallery py-4" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Galeria</h2>
         <div class="underline"></div>
-        <p class="text-center">Nasza firma specjalizuje się w profesjonalnym montażu ogrodzeń betonowych i panelowych oraz wiat. Od lat dostarczamy naszym klientom solidne i estetyczne rozwiązania, które zapewniają bezpieczeństwo i trwałość na długie lata. Dzięki doświadczeniu i zaangażowaniu naszych fachowców, każdy projekt realizujemy z dbałością o szczegóły i zgodnie z najwyższymi standardami. Stawiamy na jakość wykonania oraz terminowość, aby spełniać oczekiwania nawet najbardziej wymagających klientów.</p>
-        <div class="row">
-            <div class="col-sm-12 col-md-4 text-center py-1">
-                <i class="fa-solid fa-route"></i>
-                <p class="aboutus-icon-title pt-2">Szeroki Zasięg Usług</p>
-            </div>
-            <div class="col-sm-12 col-md-4 text-center py-1">
-                <i class="fa-regular fa-handshake"></i>
-                <p class="aboutus-icon-title pt-2">Zaufanie i Profesjonalizm</p>
-            </div>
-            <div class="col-sm-12 col-md-4 text-center py-1">
-                <i class="fa-solid fa-tape"></i>
-                <p class="aboutus-icon-title pt-2">Precyzja i Dokładność</p>
-            </div>
+
+        <div class="gallery-concrete row mb-5" id="concreteFence">
+            <img loading="lazy" src="~/img/1_SM.jpg" alt="Betonowe ogrodzenie na posesji, wykonane z poziomych paneli betonowych, ustawione wzdłuż ścieżki i otoczone zielenią." />
+            <img loading="lazy" src="~/img/12_SM.jpg" alt="Ogrodzenie betonowe składające się z pionowych słupków i paneli, ustawione na trawniku, otoczone zielenią i drzewami w tle." />
+            <img loading="lazy" src="~/img/8_SM.jpg" alt="Betonowe ogrodzenie wzdłuż drogi, z panelami o fakturze drewna, otoczone drzewami i budynkami w tle." />
+            <img loading="lazy" src="~/img/13_SM.jpg" alt="Betonowe ogrodzenie wzdłuż drogi, z panelami o fakturze drewna i budynek w tle." />
+        </div>
+        <div class="gallery-panel row mb-5" id="panelFence">
+            <img loading="lazy" src="~/img/9_SM.jpg" alt="" />
+            <img loading="lazy" src="~/img/11_SM.jpg" alt="" />
+            <img loading="lazy" src="~/img/18_SM.jpg" alt="" />
+            <img loading="lazy" src="~/img/19_SM.jpg" alt="" />
+        </div>
+        <div class="gallery-shed row" id="shed">
+            <img loading="lazy" src="~/img/9_SM.jpg" alt="Montaż betonowego ogrodzenia z panelami o teksturze kamienia, na otwartej przestrzeni w słoneczny dzień." />
+            <img loading="lazy" src="~/img/11_SM.jpg" alt="Montaż betonowego ogrodzenia z panelami o teksturze kamienia, na otwartej przestrzeni w słoneczny dzień." />
+            <img loading="lazy" src="~/img/19_SM.jpg" alt="" />
+            <img loading="lazy" src="~/img/18_SM.jpg" alt="" />
         </div>
     </div>
 </section>
+
+<div class="gallery-full-screen" id="fullScreenGallery">
+    <img id="fullScreenImage" src="" alt="Full-screen image" />
+</div>
 
 <section class="section contact py-4" id="contact">
     <div class="container">

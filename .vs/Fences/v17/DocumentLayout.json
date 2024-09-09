@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFEAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T17:39:25.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Fences.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Fences.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAE8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T17:37:57.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "Fences.Web\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "Fences.Web\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-05T17:00:33.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Fences.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Fences.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJYAAACeAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T10:51:50.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Fences.Web\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Fences.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAANQAAAAWAAAA",
+              "ViewState": "AQIAACcBAAAAAAAAAAAIwEQBAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-31T13:06:28.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Fences.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Fences.Web\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-05T17:00:33.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fences.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Fences.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T10:51:50.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Fences.Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Fences.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAjAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-31T12:57:53.424Z",
               "EditorCaption": ""

@@ -17,16 +17,36 @@
       "PackagePath": "staticwebassets\\img\\10.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\11.jpg",
-      "PackagePath": "staticwebassets\\img\\11.jpg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\11_LG.jpg",
+      "PackagePath": "staticwebassets\\img\\11_LG.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12.jpeg",
-      "PackagePath": "staticwebassets\\img\\12.jpeg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\11_MD.jpg",
+      "PackagePath": "staticwebassets\\img\\11_MD.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13.jpeg",
-      "PackagePath": "staticwebassets\\img\\13.jpeg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\11_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\11_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\11_XL.jpg",
+      "PackagePath": "staticwebassets\\img\\11_XL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\12_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpeg",
+      "PackagePath": "staticwebassets\\img\\12_XL.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\13_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpeg",
+      "PackagePath": "staticwebassets\\img\\13_XL.jpeg"
     },
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpeg",
@@ -45,12 +65,20 @@
       "PackagePath": "staticwebassets\\img\\17.jpeg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18.jpeg",
-      "PackagePath": "staticwebassets\\img\\18.jpeg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\18_SM.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19.jpeg",
-      "PackagePath": "staticwebassets\\img\\19.jpeg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpeg",
+      "PackagePath": "staticwebassets\\img\\18_XL.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\19_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpeg",
+      "PackagePath": "staticwebassets\\img\\19_XL.jpeg"
     },
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\1_LG.jpg",
@@ -117,8 +145,12 @@
       "PackagePath": "staticwebassets\\img\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\8.jpg",
-      "PackagePath": "staticwebassets\\img\\8.jpg"
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\8_SM.jpg",
+      "PackagePath": "staticwebassets\\img\\8_SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\8_XL.jpg",
+      "PackagePath": "staticwebassets\\img\\8_XL.jpg"
     },
     {
       "Id": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9.jpg",
