@@ -67,3 +67,24 @@ document.getElementById('submitFormBtn').addEventListener('click', function () {
 });
 
 // Funkcje do galerii
+
+// Pobranie elementów
+const galleryItems = document.querySelectorAll('.gallery-item');
+const fullScreenGallery = document.getElementById('fullScreenGallery');
+const fullScreenImage = document.getElementById('fullScreenImage');
+
+// Funkcja otwierająca pełnoekranowy widok
+galleryItems.forEach(item => {
+    item.addEventListener('click', function () {
+        let src = this.getAttribute('src');
+        src = src.slice(0, -6);
+        src += "XL.jpg";
+        fullScreenImage.setAttribute('src', src);
+        fullScreenGallery.style.display = 'flex'; // Wyświetl pełnoekranową galerię
+    });
+});
+
+// Zamknięcie pełnoekranowego widoku po kliknięciu
+fullScreenGallery.addEventListener('click', function () {
+    fullScreenGallery.style.display = 'none';
+});
