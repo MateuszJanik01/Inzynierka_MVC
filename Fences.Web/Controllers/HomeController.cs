@@ -2,17 +2,14 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Fences.ViewModels.VM;
 using Fences.Model.DataModels;
+using AutoMapper;
+using Microsoft.Extensions.Localization;
 
 namespace Fences.Web.Controllers;
 
-public class HomeController : Controller
+public class HomeController : BaseController
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+    public HomeController(IStringLocalizer localizer, ILogger logger, IMapper mapper) : base(logger, mapper, localizer) {}
 
     public IActionResult Index()
     {

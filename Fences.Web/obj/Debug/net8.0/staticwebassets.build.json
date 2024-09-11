@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7VZdg1JMKNDgQfWu+a7w7dDHEpCMJmV6svmTCGznEQE=",
+  "Hash": "ct7Olgj3Q75uV1uRss/m7Qe4nMTvlAiYzfal0a3ulYw=",
   "Source": "Fences.Web",
   "BasePath": "_content/Fences.Web",
   "Mode": "Default",
@@ -1898,25 +1898,6 @@
       "OriginalItemSpec": "wwwroot\\img\\8_XL.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9.jpg",
-      "SourceId": "Fences.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
-      "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/9.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\9.jpg"
-    },
-    {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9_LG.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
@@ -1972,6 +1953,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\9_SM.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\9_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/9_XL.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\9_XL.jpg"
     },
     {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\js\\site.js",

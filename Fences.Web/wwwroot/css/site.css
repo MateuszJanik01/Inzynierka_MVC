@@ -420,11 +420,10 @@ section .container hr {
     border-radius: 8px;
     padding: 5px 10px;
     outline: none;
-    margin-bottom: 1rem;
     width: 100%;
 }
 
-.contact-form button {
+.contact-form .button {
     outline: none;
 }
 
@@ -438,7 +437,7 @@ section .container hr {
     outline-color: #0D9276;
 }
 
-.contact-form button {
+.contact-form .button {
     border: 1px solid #0D9276;
     border-radius: 8px;
     padding: .5rem 1rem;
@@ -448,7 +447,7 @@ section .container hr {
     letter-spacing: 1px;
 }
 
-.contact-form button:hover, .contact-form button:focus {
+.contact-form .button:hover, .contact-form .button:focus {
     background-color: #0D9276;
     color: #2e2e2e;
 }
