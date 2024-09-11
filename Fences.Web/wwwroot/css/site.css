@@ -346,17 +346,30 @@ section .container hr {
     width: 90vw;
 }
 
-.fa-xmark {
+.fa-xmark, #prevImage, #nextImage {
     position: absolute;
-    display: inline-block;
+    top: 50%;
     transform: translate(50%, -50%);
-    top: 30px;
-    right: 30px;
     font-size: 2.5rem;
     color: black;
     cursor: pointer;
     background: none;
     border: none;
+    z-index: 101;
+}
+
+.fa-xmark {
+    top: 30px;
+    right: 30px;
+}
+
+#prevImage {
+    left: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#nextImage {
+    right: 20px;
 }
 
 @media(min-width: 1200px) {
