@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fences.Model.DataModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Fences.Services.Interfaces
 {
-    public interface IEmailSender
+    public interface IEmailService
     {
-        Task SendEmailAsync(string toEmail, string subject, string message);
+        Task SendEmailAsync(ContactForm contactForm);
     }
 }

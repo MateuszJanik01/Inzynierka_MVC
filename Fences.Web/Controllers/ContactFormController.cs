@@ -1,39 +1,41 @@
 ﻿using AutoMapper;
 using Fences.Model.DataModels;
+using Fences.Services.Interfaces;
+using Fences.Web.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
-using System.Net.Mail;
-using System.Net;
-using Fences.Services.Interfaces;
 
-namespace Fences.Web.Controllers
+public class ContactFormController : BaseController
 {
-    public class ContactFormController : BaseController
+    private readonly IEmailService _emailService;
+
+    public ContactFormController(IStringLocalizer localizer, ILogger logger, IMapper mapper, IEmailService emailService)
+        : base(logger, mapper, localizer)
     {
-        private readonly IEmailSender _emailSender;
+        _emailService = emailService;
+    }
 
-        public ContactFormController(IEmailSender emailSender, IStringLocalizer localizer, ILogger logger, IMapper mapper) : base(logger, mapper, localizer) 
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> SendEmail(ContactForm contactForm)
+    {
+        if (!ModelState.IsValid)
         {
-            _emailSender = emailSender;
+            return View("~/Views/Home/Index.cshtml", contactForm);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Send(ContactForm model)
+        try
         {
-            if (ModelState.IsValid)
-            {
-                // Przygotuj wiadomość e-mail
-                string subject = $"Wiadomość od {model.Name}";
-                string message = $"Imię i Nazwisko: {model.Name}<br>Email: {model.Email}<br>Treść: {model.Content}";
-
-                // Wyślij e-mail
-                await _emailSender.SendEmailAsync("janikmateusz01@gmail.com", subject, message);
-
-                TempData["SuccessMessage"] = "Wiadomość została wysłana!";
-                return RedirectToAction("Index", "Home");
-            }
-
-            return View("Error");
+            await _emailService.SendEmailAsync(contactForm);
+            TempData["SuccessMessage"] = "Wiadomość została pomyślnie wysłana.";
+            //return View("~/Views/Home/Index.cshtml");
         }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, ex.Message);
+            TempData["ErrorMessage"] = "Wystąpił problem z wysłaniem wiadomości. Spróbuj ponownie później.";
+        }
+
+        return View("~/Views/Home/Index.cshtml", contactForm);
     }
 }

@@ -24,10 +24,8 @@ builder.Services.AddTransient(typeof(ILogger), typeof(Logger<Program>));
 //lab7 bindowanie
 builder.Services.AddScoped<IStringLocalizer, StringLocalizer<BaseController>>();
 builder.Services.AddScoped<IJobService, JobService>();
-
-// SMTP settings and email sender service registration
-builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("Smtp"));
-builder.Services.AddTransient<IEmailSender, EmailSenderService>();
+// SMTP
+builder.Services.AddScoped<IEmailService, EmailService>();
 //
 
 var supportedCultures = new[] { "en", "pl-PL" };
