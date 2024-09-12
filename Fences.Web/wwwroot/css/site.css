@@ -23,7 +23,17 @@ iframe {
     border: 0;
 }
 
+.container {
+    padding: 0 1rem;
+}
+ 
 /* NAV */
+
+@media(max-width: 992px) {
+    nav .container {
+        padding: 0;
+    }
+}
 
 nav button.nav-link.btn.btn-link.text-dark {
     outline: none;
