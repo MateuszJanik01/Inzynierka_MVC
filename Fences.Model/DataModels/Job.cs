@@ -1,4 +1,7 @@
-﻿namespace Fences.Model.DataModels
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Fences.Model.DataModels
 {
     public class Job
     {
@@ -9,9 +12,15 @@
         public string? Street { get; set; }
         public string? Number { get; set; }
         public string ZipCode { get; set; } = null!;
+        [Range(0, 999.99, ErrorMessage = "Wartość musi być z zakresu 0 do 999.99.")]
+        public float TotalLength { get; set; }
+        [Range(0, 9.99, ErrorMessage = "Wartość musi być z zakresu 0 do 9.99")]
+        public float Height { get; set; }
         public string JobType { get; set; } = null!;
         public string? Description { get; set; }
         public DateTime RegistrationDate { get; set; }
         public DateTime DateOfExecution {  get; set; }
+        [NotMapped]
+        public float TotalPrice { get; }
     }
 }

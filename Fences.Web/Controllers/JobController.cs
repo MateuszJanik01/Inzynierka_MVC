@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
 namespace Fences.Web.Controllers
@@ -50,7 +49,8 @@ namespace Fences.Web.Controllers
         {
             var fenceTypes = new List<SelectListItem>
             {
-                new SelectListItem { Text = "Płot", Value = "Płot" },
+                new SelectListItem { Text = "Ogrodzenie Betonowe", Value = "Ogrodzenie Betonowe" },
+                new SelectListItem { Text = "Ogrodzenie Panelowe", Value = "Ogrodzenie Panelowe" },
                 new SelectListItem { Text = "Wiata", Value = "Wiata" }
             };
             
@@ -109,7 +109,7 @@ namespace Fences.Web.Controllers
 
                 jobVm.UserId = user.Id;
                 jobVm.RegistrationDate = DateTime.Now;
-                ModelState.Remove("UserId");
+                //ModelState.Remove("UserId");
             }
 
             if (ModelState.IsValid)

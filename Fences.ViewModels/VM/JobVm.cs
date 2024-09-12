@@ -1,6 +1,7 @@
 ﻿using Fences.Model.DataModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,9 +19,12 @@ namespace Fences.ViewModels.VM
         public string? Street { get; set; }
         public string? Number { get; set; }
         public string ZipCode { get; set; } = null!;
+        public float TotalLength { get; set; }
+        public float Height { get; set; }
         public string JobType { get; set; } = null!;
         public string? Description { get; set; }
         public DateTime RegistrationDate { get; set; }
         public DateTime DateOfExecution { get; set; }
+        public float TotalPrice { get; }
     }
 }

@@ -39,6 +39,9 @@ namespace Fences.DAL.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<float>("Height")
+                        .HasColumnType("real");
+
                     b.Property<string>("JobType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -51,6 +54,9 @@ namespace Fences.DAL.Migrations
 
                     b.Property<string>("Street")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("TotalLength")
+                        .HasColumnType("real");
 
                     b.Property<string>("Town")
                         .IsRequired()
