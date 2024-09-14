@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Resend email confirmation";
 }
-
+<div class="container">
 <h1>@ViewData["Title"]</h1>
 <h2>Enter your email.</h2>
 <hr />
@@ -16,9 +16,10 @@
                 <label asp-for="Input.Email" class="form-label"></label>
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
-            <button type="submit" class="w-100 btn btn-lg btn-primary">Resend</button>
+            <button type="submit" class="w-100 btn btn-lg btn-primary mb-4">Resend</button>
         </form>
     </div>
+</div>
 </div>
 
 @section Scripts {

@@ -510,3 +510,76 @@ footer, .contact {
         height: 350px
     }
 }
+
+
+/* MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35vw;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content .fa-xmark {
+    position: static;
+    transform: translate(0, 0);
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.modal-content p {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.modal-actions {
+    text-align: right;
+}
+
+.btn-confirm, .btn-cancel {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-confirm {
+    color: white;
+}
+
+.btn-cancel {
+    color: white;
+    margin-left: 10px;
+}
+
+/* Table in section Orders */
+main .container .table-responsive {
+    overflow-x: auto;
+}
+@media(max-width: 992px) {
+    main .container .table-responsive td a {
+        line-height: 2.5rem;
+    }
+}

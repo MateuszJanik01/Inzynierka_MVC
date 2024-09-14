@@ -16,11 +16,13 @@ namespace Fences.Web.Controllers
     {
         private readonly IJobService _jobService;
         private readonly UserManager<User> _userManager;
+        private readonly IEmailService _emailService;
 
-        public JobController(IJobService jobService, UserManager<User> userManager, IStringLocalizer localizer, ILogger logger, IMapper mapper) : base(logger, mapper, localizer)
+        public JobController(IJobService jobService, UserManager<User> userManager, IEmailService emailService, IStringLocalizer localizer, ILogger logger, IMapper mapper) : base(logger, mapper, localizer)
         {
             _jobService = jobService;
             _userManager = userManager;
+            _emailService = emailService;
         }
 
         public async Task<IActionResult> Index()
@@ -121,9 +123,46 @@ namespace Fences.Web.Controllers
             if (ModelState.IsValid)
             {
                 await _jobService.UpdateJobAsync(updateJobVm);
+
+                // Sending E-mail on some Changes
+                /*
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null)
+                {
+                    Logger.LogError("Error with getting User");
+                }
+                else
+                {
+                    if (await _userManager.IsInRoleAsync(user, "User"))
+                    {
+                        ContactForm contactForm = new ContactForm();
+                        contactForm.Name = user.FirstName + " " + user.LastName + " Id : " + user.Id;
+                        contactForm.Email = user.Email ?? "Brak adresu E-mail";
+                        contactForm.Content = $"This user updated job. JobId = {updateJobVm.Id} Please check your schedule";
+
+                        try
+                        {
+                            await _emailService.SendEmailAsync(contactForm);
+                        }
+                        catch (Exception ex)
+                        {
+                            Logger.LogError(ex, ex.Message);
+                        }
+                    }
+                    else
+                    {
+                        Logger.LogError("Error with getting UserRole, JobController, UpdateJob");
+                    }
+                }
+                */
+                //
+
                 return RedirectToAction("Index");
-            } else
+            }
+            else
+            {
                 return View("Error");
+            }
         }
 
         [HttpGet]
