@@ -16,9 +16,11 @@ namespace Fences.Services.Configuration.AutoMapperProfiles
                 .ForMember(dest => dest.UserName, y => y.MapFrom(src => src.Email))
                 .ForMember(dest => dest.RegistrationDate, y => y.MapFrom(src => DateTime.Now));
 
-            CreateMap<AddOrUpdateJobVm, Job>();
-            CreateMap<JobVm, AddOrUpdateJobVm>();
+            CreateMap<AddJobVm, Job>();
+            CreateMap<JobVm, AddJobVm>();
 
+            CreateMap<JobVm, UpdateJobVm>();
+            CreateMap<UpdateJobVm, Job>();
         }
     }
 }

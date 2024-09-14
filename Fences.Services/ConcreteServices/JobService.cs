@@ -16,20 +16,33 @@ namespace Fences.Services.ConcreteServices
         {
         }
 
-        public async Task<JobVm> AddOrUpdateJobAsync(AddOrUpdateJobVm addOrUpdateJobVm)
+        public async Task AddJobAsync(AddJobVm addJobVm)
         {
             try
             {
-                if (addOrUpdateJobVm == null)
+                if (addJobVm == null)
                     throw new ArgumentNullException($"View model parameter is null");
-                var jobEntity = Mapper.Map<Job>(addOrUpdateJobVm);
-                if (!addOrUpdateJobVm.Id.HasValue || addOrUpdateJobVm.Id == 0)
-                    await DbContext.Jobs.AddAsync(jobEntity);
-                else
-                    DbContext.Jobs.Update(jobEntity);
+                var jobEntity = Mapper.Map<Job>(addJobVm);
+                await DbContext.Jobs.AddAsync(jobEntity);
+                await DbContext.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, ex.Message);
+                throw;
+            }
+        }
+
+        public async Task UpdateJobAsync(UpdateJobVm updateJobVm)
+        {
+            try
+            {
+                if(updateJobVm == null)
+                    throw new ArgumentNullException("View model parameter is null");
+                var jobEntity = Mapper.Map<Job>(updateJobVm);
+                DbContext.Jobs.Update(jobEntity);
                 await DbContext.SaveChangesAsync();
                 var jobVm = Mapper.Map<JobVm>(jobEntity);
-                return jobVm;
             }
             catch (Exception ex)
             {

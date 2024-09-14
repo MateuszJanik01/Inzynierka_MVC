@@ -1,4 +1,4 @@
-@model Fences.ViewModels.VM.AddOrUpdateJobVm
+@model Fences.ViewModels.VM.AddJobVm
 
 @{
     ViewData["Title"] = $"{ViewBag.ActionType} Job";
@@ -6,80 +6,14 @@
 
 <div class="container mb-4">
 
-<h1>AddOrUpdateJob</h1>
+<h1>AddJob</h1>
 
-<h4>AddOrUpdateJobVm</h4>
+<h4>AddJobVm</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="AddOrUpdateJob">
+        <form asp-controller="Job" asp-action="AddJob">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
-            @if (User.IsInRole("Admin"))
-            {
-                <div class="form-group" hidden>
-                    <label asp-for="UserId" class="control-label"></label>
-                    <input asp-for="UserId" class="form-control" />
-                    <span asp-validation-for="UserId" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="Town" class="control-label"></label>
-                    <input asp-for="Town" class="form-control" />
-                    <span asp-validation-for="Town" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="Street" class="control-label"></label>
-                    <input asp-for="Street" class="form-control" />
-                    <span asp-validation-for="Street" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="Number" class="control-label"></label>
-                    <input asp-for="Number" class="form-control" />
-                    <span asp-validation-for="Number" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="ZipCode" class="control-label"></label>
-                    <input asp-for="ZipCode" class="form-control" />
-                    <span asp-validation-for="ZipCode" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="TotalLength" class="control-label"></label>
-                    <input asp-for="TotalLength" class="form-control" />
-                    <span asp-validation-for="TotalLength" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="Height" class="control-label"></label>
-                    <input asp-for="Height" class="form-control" />
-                    <span asp-validation-for="Height" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="JobType" class="control-label"></label>
-                    <select asp-for="JobType" class="form-control" asp-items="@ViewBag.FenceTypes"></select>
-                    <span asp-validation-for="JobType" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="RegistrationDate" class="control-label"></label>
-                    <input asp-for="RegistrationDate" class="form-control" />
-                    <span asp-validation-for="RegistrationDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="DateOfExecution" class="control-label"></label>
-                    <input asp-for="DateOfExecution" class="form-control datepicker" type="text" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="DateOfExecution" class="text-danger"></span>
-                </div>
-                <div class="form-group" hidden>
-                    <label asp-for="Description" class="control-label"></label>
-                    <textarea asp-for="Description" class="form-control"></textarea>
-                    <span asp-validation-for="Description" class="text-danger"></span>
-                </div>
-            }
-            @if (User.IsInRole("User"))
-            {
-                <div class="form-group" hidden>
-                    <label asp-for="UserId" class="control-label"></label>
-                    <input asp-for="UserId" class="form-control" />
-                    <span asp-validation-for="UserId" class="text-danger"></span>
-                </div>
                 <div class="form-group">
                     <label asp-for="Town" class="control-label"></label>
                     <input asp-for="Town" class="form-control" />
@@ -125,9 +59,9 @@
                     <textarea asp-for="Description" class="form-control"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
-            }
+
             <div class="form-group">
-                <input type="submit" value="@ViewBag.ActionType" class="btn btn-primary mt-2" />
+                <input type="submit" value="Add" class="btn btn-primary mt-2" />
             </div>
         </form>
     </div>

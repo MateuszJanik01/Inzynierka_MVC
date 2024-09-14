@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fences.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240912164456_m8")]
-    partial class m8
+    [Migration("20240914084021_m6")]
+    partial class m6
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,8 +42,8 @@ namespace Fences.DAL.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("Height")
-                        .HasColumnType("real");
+                    b.Property<double>("Height")
+                        .HasColumnType("float");
 
                     b.Property<string>("JobType")
                         .IsRequired()
@@ -58,8 +58,8 @@ namespace Fences.DAL.Migrations
                     b.Property<string>("Street")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("TotalLength")
-                        .HasColumnType("real");
+                    b.Property<double>("TotalLength")
+                        .HasColumnType("float");
 
                     b.Property<string>("Town")
                         .IsRequired()

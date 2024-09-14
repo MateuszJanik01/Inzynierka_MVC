@@ -10,9 +10,9 @@ using Microsoft.Extensions.Localization;
 
 namespace Fences.Web.Controllers
 {
-    [Authorize (Roles = "Admin, User")]
+    [Authorize(Roles = "Admin, User")]
 
-    public class JobController : BaseController 
+    public class JobController : BaseController
     {
         private readonly IJobService _jobService;
         private readonly UserManager<User> _userManager;
@@ -43,9 +43,9 @@ namespace Fences.Web.Controllers
                 return View("Error");
             }
         }
-        
+
         [HttpGet]
-        public async Task<IActionResult> AddOrUpdateJob(int ? id = null)
+        public async Task<IActionResult> AddJob()
         {
             var fenceTypes = new List<SelectListItem>
             {
@@ -53,11 +53,56 @@ namespace Fences.Web.Controllers
                 new SelectListItem { Text = "Ogrodzenie Panelowe", Value = "Ogrodzenie Panelowe" },
                 new SelectListItem { Text = "Wiata", Value = "Wiata" }
             };
-            
+
             ViewBag.FenceTypes = new SelectList(fenceTypes, "Value", "Text");
 
 
-            
+            var jobs = await _jobService.GetJobsAsync();
+            var occupiedDates = jobs.Select(job => job.DateOfExecution.ToString("yyyy-MM-dd")).ToList();
+            var disabledDates = string.Join(",", occupiedDates);
+
+            ViewBag.DisabledDates = disabledDates;
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddJob(AddJobVm addJobVm)
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null)
+            {
+                return View("Error");
+            }
+
+            addJobVm.UserId = user.Id;
+            addJobVm.RegistrationDate = DateTime.Now;
+            ModelState.Remove("UserId");
+
+            if (ModelState.IsValid)
+            {
+                await _jobService.AddJobAsync(addJobVm);
+                return RedirectToAction("Index");
+            }
+            else
+                return View("Error");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UpdateJob(int id)
+        {
+            var fenceTypes = new List<SelectListItem>
+            {
+                new SelectListItem { Text = "Ogrodzenie Betonowe", Value = "Ogrodzenie Betonowe" },
+                new SelectListItem { Text = "Ogrodzenie Panelowe", Value = "Ogrodzenie Panelowe" },
+                new SelectListItem { Text = "Wiata", Value = "Wiata" }
+            };
+
+            ViewBag.FenceTypes = new SelectList(fenceTypes, "Value", "Text");
+
+
             var jobs = await _jobService.GetJobsAsync();
             var occupiedDates = jobs.Select(job => job.DateOfExecution.ToString("yyyy-MM-dd")).ToList();
             var disabledDates = string.Join(",", occupiedDates);
@@ -65,15 +110,20 @@ namespace Fences.Web.Controllers
             ViewBag.DisabledDates = disabledDates;
 
 
+            var jobVm = await _jobService.GetJobAsync(x => x.Id == id);
+            return View(Mapper.Map<UpdateJobVm>(jobVm));
+        }
 
-            if (id.HasValue)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateJob(UpdateJobVm updateJobVm)
+        {
+            if (ModelState.IsValid)
             {
-                var jobVm = await _jobService.GetJobAsync(x => x.Id == id);
-                ViewBag.ActionType = "Edit";
-                return View(Mapper.Map<AddOrUpdateJobVm>(jobVm));
-            }
-            ViewBag.ActionType = "Add";
-            return View();
+                await _jobService.UpdateJobAsync(updateJobVm);
+                return RedirectToAction("Index");
+            } else
+                return View("Error");
         }
 
         [HttpGet]
@@ -91,36 +141,9 @@ namespace Fences.Web.Controllers
             ViewBag.GoogleMapsUrl = $"https://www.google.com/maps/embed/v1/place?key={apiKey}&q={Uri.EscapeDataString(fullAddress)}";
 
             return View(job);
-
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddOrUpdateJob(AddOrUpdateJobVm jobVm)
-        {
-            if (jobVm.Id == null)
-            {
-                var user = await _userManager.GetUserAsync(User);
-
-                if (user == null)
-                {
-                    return View("Error");
-                }
-
-                jobVm.UserId = user.Id;
-                jobVm.RegistrationDate = DateTime.Now;
-                //ModelState.Remove("UserId");
-            }
-
-            if (ModelState.IsValid)
-            {
-                await _jobService.AddOrUpdateJobAsync(jobVm);
-                return RedirectToAction("Index");
-            }
-            return View();
-        }
-
-        public async Task<IActionResult> DeleteJob(JobVm jobVm)
+        public async Task<IActionResult> Delete(JobVm jobVm)
         {
             if (jobVm != null)
             {
@@ -128,9 +151,7 @@ namespace Fences.Web.Controllers
                 return RedirectToAction("Index");
             }
             else
-            {
                 return View("Error");
-            }
         }
     }
 }

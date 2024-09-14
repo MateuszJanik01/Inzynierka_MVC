@@ -194,8 +194,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janik/Documents/Studia/Inżynierka/page MVC/Fences.Web/Views/Job/AddOrUpdateJob.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEFkZE9yVXBkYXRlSm9iLmNzaHRtbA==
+[C:/Users/janik/Documents/Studia/Inżynierka/page MVC/Fences.Web/Views/Job/AddJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEFkZEpvYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/janik/Documents/Studia/Inżynierka/page MVC/Fences.Web/Views/Job/Details.cshtml]
@@ -204,6 +204,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/janik/Documents/Studia/Inżynierka/page MVC/Fences.Web/Views/Job/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/janik/Documents/Studia/Inżynierka/page MVC/Fences.Web/Views/Job/UpdateJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXFVwZGF0ZUpvYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/janik/Documents/Studia/Inżynierka/page MVC/Fences.Web/Views/Shared/Error.cshtml]

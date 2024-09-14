@@ -7,20 +7,16 @@
 
 <h1 style="font-size: 1.7rem">Moje zlecenia</h1>
 
-@if (User.IsInRole("User"))
-{
-    <p class="mt-3">
-        <a asp-action="AddOrUpdateJob">Place your order</a>
-    </p>
-}
+
+<p class="mt-3">
+    <a asp-controller="Job" asp-action="AddJob">Add order</a>
+</p>
+
 <table class="table">
     <thead>
         <tr>
             @if (User.IsInRole("Admin"))
             {
-                <th>
-                    @Html.DisplayNameFor(model => model.Id)
-                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.UserName)
                 </th>
@@ -60,9 +56,6 @@
             @if (User.IsInRole("Admin"))
             {
                 <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.UserName)
                 </td>
             }
@@ -93,15 +86,15 @@
                 @item.DateOfExecution.ToShortDateString()
             </td>
             <td>
-                <a asp-controller="Job" asp-action="AddOrUpdateJob" asp-route-id="@item.Id">Edit</a>
+                <a asp-controller="Job" asp-action="UpdateJob" asp-route-id="@item.Id">Edit</a>
                 |
                 <a asp-controller="Job" asp-action="Details" asp-route-id="@item.Id">Details</a>
                 |
-                <a asp-controller="Job" asp-action="DeleteJob" asp-route-id="@item.Id">Delete</a>
+                <a asp-controller="Job" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
-    <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Return</i></a>
+    <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Return</a>
 </div>
