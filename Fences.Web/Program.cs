@@ -7,6 +7,9 @@ using Fences.Services.ConcreteServices;
 using Fences.Services.Configuration.AutoMapperProfiles;
 using Fences.Services.Interfaces;
 using Fences.Web.Controllers;
+using Microsoft.AspNetCore.Builder.Extensions;
+using System.Configuration;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,8 +27,10 @@ builder.Services.AddTransient(typeof(ILogger), typeof(Logger<Program>));
 //lab7 bindowanie
 builder.Services.AddScoped<IStringLocalizer, StringLocalizer<BaseController>>();
 builder.Services.AddScoped<IJobService, JobService>();
-// SMTP
-builder.Services.AddScoped<IEmailService, EmailService>();
+// SMTP Configuration
+builder.Services.AddTransient<IEmailSender, EmailService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
+builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
 //
 
 var supportedCultures = new[] { "en", "pl-PL" };

@@ -4,101 +4,100 @@
     ViewData["Title"] = "Details";
 }
 <div class="container">
-<h1>Details</h1>
+    <h1>Details</h1>
 
-<div class="row">
-    <div class="col-md-4">
-        <form asp-controller="Job" asp-action="Details">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="UserName" class="control-label"></label>
-                <input asp-for="UserName" class="form-control" disabled />
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserEmail" class="control-label"></label>
-                <input asp-for="UserEmail" class="form-control" disabled />
-                <span asp-validation-for="UserEmail" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserPhoneNumber" class="control-label"></label>
-                <input asp-for="UserPhoneNumber" class="form-control" disabled />
-                <span asp-validation-for="UserPhoneNumber" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Town" class="control-label"></label>
-                <input asp-for="Town" class="form-control" disabled />
-                <span asp-validation-for="Town" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Street" class="control-label"></label>
-                <input asp-for="Street" class="form-control" disabled />
-                <span asp-validation-for="Street" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Number" class="control-label"></label>
-                <input asp-for="Number" class="form-control" disabled />
-                <span asp-validation-for="Number" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ZipCode" class="control-label"></label>
-                <input asp-for="ZipCode" class="form-control" disabled />
-                <span asp-validation-for="ZipCode" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TotalLength" class="control-label"></label>
-                <input asp-for="TotalLength" class="form-control" disabled />
-                <span asp-validation-for="TotalLength" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Height" class="control-label"></label>
-                <input asp-for="Height" class="form-control" disabled />
-                <span asp-validation-for="Height" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="JobType" class="control-label"></label>
-                <input asp-for="JobType" class="form-control" disabled />
-                <span asp-validation-for="JobType" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <textarea asp-for="Description" class="form-control" disabled style="resize: none;"></textarea>
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RegistrationDate" class="control-label"></label>
-                <input asp-for="RegistrationDate" class="form-control" disabled />
-                <span asp-validation-for="RegistrationDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DateOfExecution" class="control-label"></label>
-                <input asp-for="DateOfExecution" class="form-control" disabled type="date" />
-                <span asp-validation-for="DateOfExecution" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TotalPrice" class="control-label"></label>
-                <input asp-for="TotalPrice" class="form-control" disabled />
-                <span asp-validation-for="TotalPrice" class="text-danger"></span>
-            </div>
-        </form>
-    </div>
-    <div class="col-md-8 align-items-center">
-        <h4>Lokalizacja:</h4>
-        <div class="map-container">
-            <iframe src="@ViewBag.GoogleMapsUrl"
-                    width="100%"
-                    height="500"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy">
-            </iframe>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-controller="Job" asp-action="Details">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" disabled />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserEmail" class="control-label"></label>
+                    <input asp-for="UserEmail" class="form-control" disabled />
+                    <span asp-validation-for="UserEmail" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserPhoneNumber" class="control-label"></label>
+                    <input asp-for="UserPhoneNumber" class="form-control" disabled />
+                    <span asp-validation-for="UserPhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Town" class="control-label"></label>
+                    <input asp-for="Town" class="form-control" disabled />
+                    <span asp-validation-for="Town" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Street" class="control-label"></label>
+                    <input asp-for="Street" class="form-control" disabled />
+                    <span asp-validation-for="Street" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Number" class="control-label"></label>
+                    <input asp-for="Number" class="form-control" disabled />
+                    <span asp-validation-for="Number" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ZipCode" class="control-label"></label>
+                    <input asp-for="ZipCode" class="form-control" disabled />
+                    <span asp-validation-for="ZipCode" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TotalLength" class="control-label"></label>
+                    <input asp-for="TotalLength" class="form-control" disabled />
+                    <span asp-validation-for="TotalLength" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Height" class="control-label"></label>
+                    <input asp-for="Height" class="form-control" disabled />
+                    <span asp-validation-for="Height" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="JobType" class="control-label"></label>
+                    <input asp-for="JobType" class="form-control" disabled />
+                    <span asp-validation-for="JobType" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" class="form-control" disabled style="resize: none;"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RegistrationDate" class="control-label"></label>
+                    <input asp-for="RegistrationDate" class="form-control" disabled />
+                    <span asp-validation-for="RegistrationDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateOfExecution" class="control-label"></label>
+                    <input asp-for="DateOfExecution" class="form-control" disabled type="date" />
+                    <span asp-validation-for="DateOfExecution" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TotalPrice" class="control-label"></label>
+                    <input asp-for="TotalPrice" class="form-control" disabled />
+                    <span asp-validation-for="TotalPrice" class="text-danger"></span>
+                </div>
+            </form>
         </div>
+        <div class="col-md-8 align-items-center">
+            <h4>Lokalizacja:</h4>
+            <div class="map-container">
+                <iframe src="@ViewBag.GoogleMapsUrl"
+                        width="100%"
+                        height="500"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
     </div>
 
-</div>
-
-
-<div class="my-3">
-    <a asp-action="Index" >Back to List</a>
-</div>
+    <div class="my-3">
+        <a asp-action="Index">Back to List</a>
+    </div>
 </div>

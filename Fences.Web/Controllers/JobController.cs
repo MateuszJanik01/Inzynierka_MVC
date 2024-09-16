@@ -166,7 +166,7 @@ namespace Fences.Web.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Details (int id)
+        public async Task<IActionResult> Details(int id)
         {
             var job = await _jobService.GetJobAsync(j => j.Id == id);
 
@@ -176,7 +176,7 @@ namespace Fences.Web.Controllers
             }
 
             string fullAddress = $"{job.Street} {job.Number}, {job.Town}, {job.ZipCode}";
-            string apiKey = "AIzaSyDsQzCFukD06XdkwG3--IsJRV3XGvkTajA";
+            string apiKey = "AIzaSyBtuw_WLOy7zHaXt192nkx9PtokcQIRWMk";
             ViewBag.GoogleMapsUrl = $"https://www.google.com/maps/embed/v1/place?key={apiKey}&q={Uri.EscapeDataString(fullAddress)}";
 
             return View(job);
