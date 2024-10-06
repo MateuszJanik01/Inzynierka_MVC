@@ -130,7 +130,6 @@ namespace Fences.Web.Areas.Identity.Pages.Account
                 ReturnUrl = returnUrl;
                 ProviderDisplayName = info.ProviderDisplayName;
 
-                // Pobieranie imienia i nazwiska
                 var email = info.Principal.FindFirstValue(ClaimTypes.Email);
                 var firstName = info.Principal.FindFirstValue(ClaimTypes.GivenName);
                 var lastName = info.Principal.FindFirstValue(ClaimTypes.Surname);
@@ -140,7 +139,6 @@ namespace Fences.Web.Areas.Identity.Pages.Account
                     Email = email
                 };
 
-                // Przypisywanie imienia i nazwiska do TempData, aby mo¿na je by³o przekazaæ do metody OnPostConfirmationAsync
                 TempData["FirstName"] = firstName ?? "Unknown";
                 TempData["LastName"] = lastName ?? "Unknown";
 
@@ -166,7 +164,6 @@ namespace Fences.Web.Areas.Identity.Pages.Account
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
-                // Pobranie imienia i nazwiska z TempData
                 user.FirstName = TempData["FirstName"]?.ToString() ?? "Unknown";
                 user.LastName = TempData["LastName"]?.ToString() ?? "Unknown";
 

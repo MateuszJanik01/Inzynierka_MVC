@@ -43,6 +43,52 @@ iframe {
 .abcRioButton span {
     font-size: 1.1rem !important;
 }
+
+/* Register Section */
+.RegisterSection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterSection h1 {
+    margin: 0;
+}
+
+.RegisterRowSection, .RegisterSectionNav {
+    width: 100%;
+}
+
+.RegisterSection button i {
+    padding: 0;
+    padding-right: 1rem;
+}
+
+.RegisterSectionNav i {
+    padding: 1rem;
+}
+
+.RegisterSectionNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RegisterSectionNav i {
+    transform: rotate(180deg);
+    font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+    .RegisterRowSection, .RegisterSectionNav {
+        width: 60%;
+    }
+}
+
+
+
 /* NAV */
 @media(max-width: 992px) {
     nav .container {
