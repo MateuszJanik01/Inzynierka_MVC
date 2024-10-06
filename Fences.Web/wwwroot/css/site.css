@@ -26,9 +26,24 @@ iframe {
 .container {
     padding: 0 1rem;
 }
- 
-/* NAV */
 
+/* Google login button */
+.abcRioButton {
+    width: 100%;
+    height: unset;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.abcRioButtonLightBlue {
+    color: black !important;
+    width: 100% !important;
+    height: unset !important;
+}
+
+.abcRioButton span {
+    font-size: 1.1rem !important;
+}
+/* NAV */
 @media(max-width: 992px) {
     nav .container {
         padding: 0;

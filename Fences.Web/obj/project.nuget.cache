@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sBUNh7z6DlM=",
+  "dgSpecHash": "DALijlJueyM=",
   "success": true,
   "projectFilePath": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\Fences.Web.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\janik\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\janik\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\janik\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\janik\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.8\\microsoft.aspnetcore.authentication.google.8.0.8.nupkg.sha512",
     "C:\\Users\\janik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.7\\microsoft.aspnetcore.cryptography.internal.8.0.7.nupkg.sha512",
     "C:\\Users\\janik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.7\\microsoft.aspnetcore.cryptography.keyderivation.8.0.7.nupkg.sha512",
     "C:\\Users\\janik\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.7\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.7.nupkg.sha512",

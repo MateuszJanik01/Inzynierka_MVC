@@ -23,6 +23,17 @@ builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfi
     .AddRoleManager<RoleManager<Role>>()
     .AddUserManager<UserManager<User>>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+// Google Authentication
+builder.Services.AddAuthentication()
+    .AddGoogle(options =>
+    {
+        IConfigurationSection googleAuthNSection =
+            builder.Configuration.GetSection("Authentication:Google");
+        options.ClientId = googleAuthNSection["ClientId"];
+        options.ClientSecret = googleAuthNSection["ClientSecret"];
+    });
+
 builder.Services.AddTransient(typeof(ILogger), typeof(Logger<Program>));
 //lab7 bindowanie
 builder.Services.AddScoped<IStringLocalizer, StringLocalizer<BaseController>>();

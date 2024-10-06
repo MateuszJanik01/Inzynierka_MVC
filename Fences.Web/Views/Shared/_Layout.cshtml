@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Fences.Web.styles.css" asp-append-version="true" />
 
+    <!-- Google API OAUTH 2.0-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="760918169137-9426gdn0v2imuhbr6bc2p35d5np4tcqe.apps.googleusercontent.com">
+
     <!-- Meta tags-->
     <meta name="author" content="Twoja Firma" />
     <meta name="theme-color" content="#007bff" />
@@ -17,42 +21,10 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light box-shadow py-2">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Fences.Web</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a href="#aboutus" class="nav-link">O Nas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#offer" class="nav-link">Oferta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#gallery" class="nav-link">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Kontakt</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    
     <main role="main">
         @RenderBody()
     </main>
-
-    <footer class="footer text-muted py-4">
-        <p class="m-0">&copy <span class="footer-year"></span> - Fences.Web</p>
-    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

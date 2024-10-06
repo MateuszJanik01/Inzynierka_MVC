@@ -105,6 +105,7 @@ namespace Fences.Web.Areas.Identity.Pages.Account
                 ErrorMessage = $"Error from external provider: {remoteError}";
                 return RedirectToPage("./Login", new { ReturnUrl = returnUrl });
             }
+
             var info = await _signInManager.GetExternalLoginInfoAsync();
             if (info == null)
             {
@@ -128,13 +129,21 @@ namespace Fences.Web.Areas.Identity.Pages.Account
                 // If the user does not have an account, then ask the user to create an account.
                 ReturnUrl = returnUrl;
                 ProviderDisplayName = info.ProviderDisplayName;
-                if (info.Principal.HasClaim(c => c.Type == ClaimTypes.Email))
+
+                // Pobieranie imienia i nazwiska
+                var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+                var firstName = info.Principal.FindFirstValue(ClaimTypes.GivenName);
+                var lastName = info.Principal.FindFirstValue(ClaimTypes.Surname);
+
+                Input = new InputModel
                 {
-                    Input = new InputModel
-                    {
-                        Email = info.Principal.FindFirstValue(ClaimTypes.Email)
-                    };
-                }
+                    Email = email
+                };
+
+                // Przypisywanie imienia i nazwiska do TempData, aby mo¿na je by³o przekazaæ do metody OnPostConfirmationAsync
+                TempData["FirstName"] = firstName ?? "Unknown";
+                TempData["LastName"] = lastName ?? "Unknown";
+
                 return Page();
             }
         }
@@ -156,6 +165,10 @@ namespace Fences.Web.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
+                // Pobranie imienia i nazwiska z TempData
+                user.FirstName = TempData["FirstName"]?.ToString() ?? "Unknown";
+                user.LastName = TempData["LastName"]?.ToString() ?? "Unknown";
 
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)

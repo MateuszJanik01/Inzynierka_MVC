@@ -8,6 +8,35 @@
     ViewData["Title"] = "Home Page";
 }
 
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light box-shadow py-2">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Fences.Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a href="#aboutus" class="nav-link">O Nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#offer" class="nav-link">Oferta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+                <partial name="_LoginPartial" />
+            </div>
+        </div>
+    </nav>
+</header>
+
 <section>
 <div class="container-fluid p-0">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -248,3 +277,7 @@
         </div>
     </div>
 </section>
+
+<footer class="footer text-muted py-4">
+    <p class="m-0">&copy <span class="footer-year"></span> - Fences.Web</p>
+</footer>
