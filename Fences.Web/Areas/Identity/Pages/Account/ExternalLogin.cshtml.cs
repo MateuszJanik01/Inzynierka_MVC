@@ -170,9 +170,12 @@ namespace Fences.Web.Areas.Identity.Pages.Account
                 user.FirstName = TempData["FirstName"]?.ToString() ?? "Unknown";
                 user.LastName = TempData["LastName"]?.ToString() ?? "Unknown";
 
+                user.RegistrationDate = DateTime.Now;
+
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "User");
                     result = await _userManager.AddLoginAsync(user, info);
                     if (result.Succeeded)
                     {
