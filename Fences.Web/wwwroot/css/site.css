@@ -200,7 +200,7 @@ button.nav-link.btn.btn-link.text-dark {
 
 .img-2 {
     background-position: bottom 55% right 50%;
-    background-image: url("../img/3_SM.jpg");
+    background-image: url("../img/21_SM.jpg");
 }
 
 .img-3 {
@@ -214,7 +214,7 @@ button.nav-link.btn.btn-link.text-dark {
     }
 
     .img-2 {
-        background-image: url("../img/3_MD.jpg");
+        background-image: url("../img/21_MD.jpg");
     }
 
     .img-3 {
@@ -228,7 +228,7 @@ button.nav-link.btn.btn-link.text-dark {
     }
 
     .img-2 {
-        background-image: url("../img/3_LG.jpg");
+        background-image: url("../img/21_LG.jpg");
     }
 
     .img-3 {
@@ -242,7 +242,7 @@ button.nav-link.btn.btn-link.text-dark {
     }
 
     .img-2 {
-        background-image: url("../img/3_XL.jpg");
+        background-image: url("../img/21_XL.jpg");
     }
 
     .img-3 {
@@ -290,7 +290,7 @@ button.nav-link.btn.btn-link.text-dark {
 }
 
 .img-panel {
-    background-image: url("../img/6_SM.jpg");
+    background-image: url("../img/23_SM.jpg");
     background-position: bottom 70% left 50%;
 }
 
@@ -305,7 +305,7 @@ button.nav-link.btn.btn-link.text-dark {
     }
 
     .img-panel {
-        background-image: url("../img/6_MD.jpg");
+        background-image: url("../img/23_MD.jpg");
     }
 
     .img-shed {
@@ -319,7 +319,7 @@ button.nav-link.btn.btn-link.text-dark {
     }
 
     .img-panel {
-        background-image: url("../img/6_LG.jpg");
+        background-image: url("../img/23_LG.jpg");
     }
 
     .img-shed {
@@ -333,7 +333,7 @@ button.nav-link.btn.btn-link.text-dark {
     }
 
     .img-panel {
-        background-image: url("../img/6_XL.jpg");
+        background-image: url("../img/23_XL.jpg");
     }
 
     .img-shed {
