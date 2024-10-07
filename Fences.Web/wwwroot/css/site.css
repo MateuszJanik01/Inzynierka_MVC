@@ -76,7 +76,7 @@ iframe {
     align-items: center;
 }
 
-.RegisterSectionNav i {
+.RegisterSectionNav i, .loginSectionReturn i, .manageAccountSectionReturn i {
     transform: rotate(180deg);
     font-size: 1.6rem;
 }
@@ -87,13 +87,43 @@ iframe {
     }
 }
 
+.externalLoginSection, .loginSection, .manageAccountSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.externalLoginSection p.text-info {
+    color: black !important;
+}
 
+/* Login Section */
+#external-account button {
+    font-size: 1.25rem;
+}
+#external-account button i {
+    padding-right: 1rem;
+}
+
+/* Job Section */
+p.addOrder i {
+    font-size: 1.2rem;
+    margin-right: .2rem;
+}
 /* NAV */
 @media(max-width: 992px) {
     nav .container {
         padding: 0;
     }
+}
+
+nav button.nav-link.btn.btn-link.text-dark.logout {
+    text-align: center;
+}
+
+nav button {
+    margin-right: 1rem;
 }
 
 nav button.nav-link.btn.btn-link.text-dark {

@@ -152,7 +152,7 @@
                     <a asp-controller="Job" asp-action="Index" class="place-order">Moje zlecenia</a>
                 } else
                 {
-                    <a asp-controller="Job" asp-action="AddOrUpdateJob" class="place-order">Złóż zamówienie</a>
+                    <a asp-controller="Job" asp-action="AddJob" class="place-order">Złóż zamówienie</a>
                 }
             }
             else
@@ -264,7 +264,7 @@
                     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.1/jquery.validate.min.js"></script>
                     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate.unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
 
-                    <!-- Skrypty do wakidacji formularza -->
+                    <!-- Skrypty do walidacji formularza -->
                     @{
                         await Html.RenderPartialAsync("_ValidationScriptsPartial");
                     }
@@ -280,4 +280,5 @@
 
 <footer class="footer text-muted py-4">
     <p class="m-0">&copy <span class="footer-year"></span> - Fences.Web</p>
+    <p class="mt-2">Przeczytaj naszą <a href="/polityka-prywatnosci" class="text-decoration-none">politykę prywatności</a>, aby dowiedzieć się więcej o tym, jak chronimy Twoje dane osobowe.</p>
 </footer>

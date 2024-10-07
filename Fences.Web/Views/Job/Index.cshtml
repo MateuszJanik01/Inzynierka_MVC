@@ -5,11 +5,15 @@
 }
 <div class="container mb-4">
 
+<div class="manageAccountSectionReturn mb-3 mt-5">
+    <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+</div>
+
 <h1 style="font-size: 1.7rem">My orders</h1>
 
 
-<p class="mt-3">
-    <a asp-controller="Job" asp-action="AddJob">Add order</a>
+<p class="mt-3 addOrder">
+        <a asp-controller="Job" asp-action="AddJob"><i class="fa-solid fa-plus"></i>Add order</a>
 </p>
 <div class="table-responsive mb-3">
 <table class="table mb-0">
@@ -74,9 +78,6 @@
 }
     </tbody>
 </table>
-    </div>
-    <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Return</a>
-</div>
 
 <!-- Modal HTML -->
 <div id="deleteModal" class="modal">
