@@ -3,7 +3,12 @@
 @{
     ViewData["Title"] = "Details";
 }
-<div class="container">
+<div class="container mb-5">
+
+    <div class="addJobReturn mb-3 mt-5">
+        <a asp-action="Index" asp-controller="Job"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+    </div>
+
     <h1>Details</h1>
 
     <div class="row">
@@ -13,17 +18,17 @@
                 @if (User.IsInRole("Admin"))
                 {
                     <div class="form-group">
-                        <label asp-for="UserName" class="control-label"></label>
+                        <label asp-for="UserName" class="control-label">User name</label>
                         <input asp-for="UserName" class="form-control" disabled />
                         <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="UserEmail" class="control-label"></label>
+                        <label asp-for="UserEmail" class="control-label">User email</label>
                         <input asp-for="UserEmail" class="form-control" disabled />
                         <span asp-validation-for="UserEmail" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="UserPhoneNumber" class="control-label"></label>
+                        <label asp-for="UserPhoneNumber" class="control-label">User phone number</label>
                         <input asp-for="UserPhoneNumber" class="form-control" disabled />
                         <span asp-validation-for="UserPhoneNumber" class="text-danger"></span>
                     </div>
@@ -44,22 +49,22 @@
                     <span asp-validation-for="Number" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="ZipCode" class="control-label"></label>
+                    <label asp-for="ZipCode" class="control-label">Zip code</label>
                     <input asp-for="ZipCode" class="form-control" disabled />
                     <span asp-validation-for="ZipCode" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="TotalLength" class="control-label"></label>
+                    <label asp-for="TotalLength" class="control-label">Total length [m]</label>
                     <input asp-for="TotalLength" class="form-control" disabled />
                     <span asp-validation-for="TotalLength" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Height" class="control-label"></label>
+                    <label asp-for="Height" class="control-label">Height [m]</label>
                     <input asp-for="Height" class="form-control" disabled />
                     <span asp-validation-for="Height" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="JobType" class="control-label"></label>
+                    <label asp-for="JobType" class="control-label">Job type</label>
                     <input asp-for="JobType" class="form-control" disabled />
                     <span asp-validation-for="JobType" class="text-danger"></span>
                 </div>
@@ -69,17 +74,17 @@
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="RegistrationDate" class="control-label"></label>
+                    <label asp-for="RegistrationDate" class="control-label">Registration date</label>
                     <input asp-for="RegistrationDate" class="form-control" disabled />
                     <span asp-validation-for="RegistrationDate" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="DateOfExecution" class="control-label"></label>
+                    <label asp-for="DateOfExecution" class="control-label">Date of execution</label>
                     <input asp-for="DateOfExecution" class="form-control" disabled type="date" />
                     <span asp-validation-for="DateOfExecution" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="TotalPrice" class="control-label"></label>
+                    <label asp-for="TotalPrice" class="control-label">Total price</label>
                     <input asp-for="TotalPrice" class="form-control" disabled />
                     <span asp-validation-for="TotalPrice" class="text-danger"></span>
                 </div>
@@ -98,9 +103,5 @@
             </div>
         </div>
 
-    </div>
-
-    <div class="my-3">
-        <a asp-action="Index">Back to List</a>
     </div>
 </div>

@@ -1,12 +1,4 @@
-﻿using Fences.Model.DataModels;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fences.ViewModels.VM
+﻿namespace Fences.ViewModels.VM
 {
     public class JobVm
     {

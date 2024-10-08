@@ -2,6 +2,7 @@
 using Fences.Model.DataModels;
 using Fences.Services.Interfaces;
 using Fences.ViewModels.VM;
+using Ganss.Xss;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -25,8 +26,15 @@ namespace Fences.Web.Controllers
             _emailService = emailService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? searchInput = null)
         {
+            var sanitizer = new HtmlSanitizer();
+            if (!string.IsNullOrWhiteSpace(searchInput))
+            {
+                searchInput = sanitizer.Sanitize(searchInput);
+            }
+            ViewBag.searchInput = searchInput;
+
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
@@ -34,11 +42,33 @@ namespace Fences.Web.Controllers
             }
             if (await _userManager.IsInRoleAsync(user, "Admin"))
             {
-                return View(await _jobService.GetJobsAsync());
+                if (!string.IsNullOrWhiteSpace(searchInput))
+                {
+                    return View(await _jobService.GetJobsAsync(x =>
+                        x.Description!.Contains(searchInput) ||
+                        x.Town.Contains(searchInput) ||
+                        x.JobType.Contains(searchInput) ||
+                        x.User.FirstName.Contains(searchInput) ||
+                        x.User.LastName.Contains(searchInput) ||
+                        x.User.Email!.Contains(searchInput) ||
+                        x.User.PhoneNumber!.Contains(searchInput)
+                    ));
+                } else
+                    return View(await _jobService.GetJobsAsync());
             }
             else if (await _userManager.IsInRoleAsync(user, "User"))
             {
-                return View(await _jobService.GetJobsAsync(x => x.UserId == user.Id));
+                if (!string.IsNullOrWhiteSpace(searchInput))
+                {
+                    return View(await _jobService.GetJobsAsync(x => x.UserId == user.Id && 
+                    (
+                        x.Description!.Contains(searchInput) ||
+                        x.Town.Contains(searchInput) ||
+                        x.JobType.Contains(searchInput)
+                    )
+                    ));
+                } else
+                    return View(await _jobService.GetJobsAsync(x => x.UserId == user.Id));
             }
             else
             {

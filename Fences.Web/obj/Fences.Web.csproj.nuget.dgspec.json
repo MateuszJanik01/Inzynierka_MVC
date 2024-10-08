@@ -385,6 +385,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.1.870, )"
+            },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
               "version": "[8.0.8, )"

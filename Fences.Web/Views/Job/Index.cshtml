@@ -11,10 +11,19 @@
 
 <h1 style="font-size: 1.7rem">My orders</h1>
 
-
-<p class="mt-3 addOrder">
+<div class="indexSectionSearch">
+    <p class="mt-3 addOrder">
         <a asp-controller="Job" asp-action="AddJob"><i class="fa-solid fa-plus"></i>Add order</a>
-</p>
+    </p>
+    <div class="searchBox">
+        <form asp-controller="Job" asp-action="Index">
+            <label for="searchInput" class="control-label"></label>
+            <input type="text" name="searchInput" id="searchInput" class="form-control" value="@ViewBag.searchInput"/>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+</div>
+
 <div class="table-responsive mb-3">
 <table class="table mb-0">
     <thead>
@@ -78,7 +87,8 @@
 }
     </tbody>
 </table>
-
+</div>
+</div>
 <!-- Modal HTML -->
 <div id="deleteModal" class="modal">
     <div class="modal-content">
@@ -90,6 +100,8 @@
         </div>
     </div>
 </div>
+
+
 
 @section Scripts {
     <script src="~/js/deleteModal.js"></script>
