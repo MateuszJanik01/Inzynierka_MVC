@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fences.Services", "Fences.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fences.ViewModels", "Fences.ViewModels\Fences.ViewModels.csproj", "{27FFD0CE-6C76-4208-966D-55B582C591B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fences.Tests", "Fences.Tests\Fences.Tests.csproj", "{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{27FFD0CE-6C76-4208-966D-55B582C591B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FFD0CE-6C76-4208-966D-55B582C591B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FFD0CE-6C76-4208-966D-55B582C591B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
