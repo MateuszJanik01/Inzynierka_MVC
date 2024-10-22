@@ -58,6 +58,9 @@ namespace Fences.DAL.Migrations
                     b.Property<double>("TotalLength")
                         .HasColumnType("float");
 
+                    b.Property<double>("TotalPrice")
+                        .HasColumnType("float");
+
                     b.Property<string>("Town")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

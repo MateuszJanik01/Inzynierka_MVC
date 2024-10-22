@@ -17,6 +17,6 @@
         public string? Description { get; set; }
         public DateTime RegistrationDate { get; set; }
         public DateTime DateOfExecution { get; set; }
-        public double TotalPrice => Math.Round((TotalLength / 2.15) * Height * 150);
+        public double TotalPrice { get; set; }
     }
 }

@@ -152,6 +152,8 @@ namespace Fences.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (updateJobVm.TotalPrice == 0.00)
+                    updateJobVm.TotalPrice = Math.Round((updateJobVm.TotalLength / 2.15) * updateJobVm.Height * 150);
                 await _jobService.UpdateJobAsync(updateJobVm);
 
                 // Sending E-mail on some Changes

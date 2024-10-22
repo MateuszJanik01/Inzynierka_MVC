@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fences.ViewModels.VM
+﻿namespace Fences.ViewModels.VM
 {
     public class UpdateJobVm
     {
@@ -19,5 +13,6 @@ namespace Fences.ViewModels.VM
         public string JobType { get; set; } = null!;
         public string? Description { get; set; }
         public DateTime DateOfExecution { get; set; }
+        public double TotalPrice { get; set; }
     }
 }

@@ -19,5 +19,7 @@ namespace Fences.Model.DataModels
         public string? Description { get; set; }
         public DateTime RegistrationDate { get; set; }
         public DateTime DateOfExecution {  get; set; }
+        [Range(0.00, 99999.99, ErrorMessage = "Wartość musi być z zakresu 0 do 999999.99")]
+        public double TotalPrice { get; set; } = 0.00;
     }
 }
