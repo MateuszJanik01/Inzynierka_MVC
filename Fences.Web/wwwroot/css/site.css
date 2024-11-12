@@ -76,10 +76,11 @@ iframe {
     align-items: center;
 }
 
-    .RegisterSectionNav i, .loginSectionReturn i, .manageAccountSectionReturn i, .addJobReturn i {
-        transform: rotate(180deg);
-        font-size: 1.6rem;
-    }
+/* Return Icon*/
+.RegisterSectionNav i, .loginSectionReturn i, .manageAccountSectionReturn i, .addJobReturn i, .ForgotPasswordNav i {
+    transform: rotate(180deg);
+    font-size: 1.6rem;
+}
 
 @media (min-width: 768px) {
     .RegisterRowSection, .RegisterSectionNav {
@@ -87,7 +88,7 @@ iframe {
     }
 }
 
-.externalLoginSection, .loginSection, .manageAccountSection {
+.externalLoginSection, .loginSection, .manageAccountSection, .forgotPasswordSection {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -125,6 +126,12 @@ p.addOrder i {
 
 .indexSectionSearch form button {
     margin-left: 1rem;
+}
+
+/* Forgot Password Section */
+.forgotPasswordSection {
+    display: flex;
+    align-items:center;
 }
 
 /* NAV */

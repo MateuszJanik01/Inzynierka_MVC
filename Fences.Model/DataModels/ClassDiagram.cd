@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="Fences.Model.DataModels.ContactForm">
-    <Position X="12.5" Y="0.5" Width="1.5" />
+    <Position X="12" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAiAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DataModels\ContactForm.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Fences.Model.DataModels.Job">
-    <Position X="14.5" Y="2.5" Width="1.5" />
+    <Position X="14.5" Y="2.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>CAADAAAABgAgAAAAAkAAAAgAAQAAAAABAAMAAAAAAAA=</HashCode>
+      <HashCode>CAADAAAABgAgAAAAAkAAAAgAAQAAQAABAAMAAAAAAAA=</HashCode>
       <FileName>DataModels\Job.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Fences.Model.DataModels.Role">
-    <Position X="16.25" Y="0.5" Width="1.5" />
+    <Position X="17" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>DataModels\Role.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Fences.Model.DataModels.SmtpOptions">
-    <Position X="12.5" Y="2.5" Width="1.5" />
+    <Position X="12" Y="2.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAQAAAAAACAAACAACAAAAAAAAAAA=</HashCode>
       <FileName>DataModels\SmtpOptions.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Fences.Model.DataModels.User">
-    <Position X="14.5" Y="0.5" Width="1.5" />
+    <Position X="14.5" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAg=</HashCode>
       <FileName>DataModels\User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Fences.Model.DataModels.RoleValue">
-    <Position X="16.25" Y="2.5" Width="1.5" />
+    <Position X="17" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DataModels\RoleValue.cs</FileName>
