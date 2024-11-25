@@ -27,6 +27,18 @@ iframe {
     padding: 0 1rem;
 }
 
+/* Datepicker icon in input */
+.datepickerIcon::before{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: ' ';
+    width: 10%;
+    height: 100%;
+    color: rgb(255, 0,0);
+    z-index: 10;
+}
 /* Google login button */
 .abcRioButton {
     width: 100%;

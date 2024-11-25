@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fences.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8d96738161270ea239f2df5088361a78535f7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0edd2348a170f2a393dd6501dc46857e087e5c3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fences.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fences.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

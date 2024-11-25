@@ -9,7 +9,9 @@ namespace Fences.Model.DataModels
         public int UserId { get; set; }
         public string Town { get; set; } = null!;
         public string? Street { get; set; }
+        //[RegularExpression(@"^[1-9][0-9]{0,2}[a-zA-Z]?$", ErrorMessage = "Numer domu musi być w zakresie od 1 do 999 i może zawierać jedną literę.")]
         public string? Number { get; set; }
+        //[RegularExpression(@"^\d{2}-\d{3}$", ErrorMessage = "Nieprawidłowy format kodu pocztowego (wymagany format XX-XXX).")]
         public string ZipCode { get; set; } = null!;
         [Range(0, 999.99, ErrorMessage = "Wartość musi być z zakresu 0 do 999.99.")]
         public double TotalLength { get; set; }

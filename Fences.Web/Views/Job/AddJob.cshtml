@@ -40,12 +40,12 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="TotalLength" class="control-label">Total length [m]</label>
-                    <input asp-for="TotalLength" class="form-control" />
+                    <input asp-for="TotalLength" class="form-control" min="0"/>
                     <span asp-validation-for="TotalLength" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Height" class="control-label">Height [m]</label>
-                    <input asp-for="Height" class="form-control" />
+                    <input asp-for="Height" class="form-control" min="0"/>
                     <span asp-validation-for="Height" class="text-danger"></span>
                 </div>
                 <div class="form-group">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="DateOfExecution" class="control-label">Date of execution</label>
-                    <input asp-for="DateOfExecution" class="form-control datepicker" type="text" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                    <input asp-for="DateOfExecution" class="form-control datepicker datepickerIcon" type="text" min="@DateTime.Now.ToString("yyyy-MM-dd")">
                     <span asp-validation-for="DateOfExecution" class="text-danger"></span>
                 </div>
                 <div class="form-group">
