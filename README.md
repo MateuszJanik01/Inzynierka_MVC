@@ -19,7 +19,7 @@ After unrolling all the strips, click the rigth mouse button on the data base na
 
 ![NewQuery](./ReadmeImg/NewQuery.png)
 
-In new window paste this code and click "Exacute"
+In new window paste this code and click "Execute"
 
 ```
 SET IDENTITY_INSERT [dbo].[AspNetRoles] ON
