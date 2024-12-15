@@ -1,12 +1,12 @@
-﻿using Fences.DAL.EF;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Fences.DAL.EF;
 using Fences.Model.DataModels;
 using Fences.Services.ConcreteServices;
 using Fences.Services.Configuration.AutoMapperProfiles;
 using Fences.Services.Interfaces;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Fences.Tests;
 public class Startup

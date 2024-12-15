@@ -20,7 +20,7 @@ namespace Fences.Services.Configuration.AutoMapperProfiles
             CreateMap<JobVm, AddJobVm>();
 
             CreateMap<JobVm, UpdateJobVm>();
-            CreateMap<UpdateJobVm, Job>();
+            CreateMap<UpdateJobVm, Job>().ReverseMap();
         }
     }
 }

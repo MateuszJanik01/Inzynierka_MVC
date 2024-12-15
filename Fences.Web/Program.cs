@@ -30,8 +30,8 @@ builder.Services.AddAuthentication()
     {
         IConfigurationSection googleAuthNSection =
             builder.Configuration.GetSection("Authentication:Google");
-        options.ClientId = googleAuthNSection["ClientId"];
-        options.ClientSecret = googleAuthNSection["ClientSecret"];
+        options.ClientId = googleAuthNSection["ClientId"]!;
+        options.ClientSecret = googleAuthNSection["ClientSecret"]!;
     });
 
 builder.Services.AddTransient(typeof(ILogger), typeof(Logger<Program>));

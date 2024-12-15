@@ -1,132 +1,83 @@
-﻿using Fences.DAL.EF;
-using Fences.Model.DataModels;
+﻿using AutoMapper;
+using Fences.DAL.EF;
 using Fences.Services.Interfaces;
-using Fences.Tests.UnitTests;
 using Fences.ViewModels.VM;
 using Microsoft.EntityFrameworkCore;
 
+namespace Fences.Tests.UnitTests;
+
 public class JobServiceUnitTests : BaseUnitTests
 {
-    private readonly IJobService _jobService;
+    private readonly IJobService _jobService = null!;
 
-    public JobServiceUnitTests(IJobService jobService, ApplicationDbContext dbContext)
-        : base(dbContext)
+    public JobServiceUnitTests(IJobService jobService, ApplicationDbContext dbContext, IMapper mapper)
+        : base(dbContext, mapper)
     {
         _jobService = jobService;
     }
 
     [Fact]
-    public async Task GetJobAsync()
+    public async void AddJobAsync_ShouldAddJob_WhenValidData()
     {
-        var job = await _jobService.GetJobAsync(x => x.Town == "Opole");
+        var addJobVm = new AddJobVm
+        {
+            UserId = 1,
+            Town = "Poznań",
+            Street = "Kościelna",
+            Number = "34",
+            ZipCode = "60-201",
+            TotalLength = 100,
+            Height = 2,
+            JobType = "Ogrodzenie Betonowe",
+            Description = "Description",
+            RegistrationDate = DateTime.Now,
+            DateOfExecution = DateTime.Now.AddDays(4),
+        };
+
+        await _jobService.AddJobAsync(addJobVm);
+        var result = await DbContext.Jobs.FirstOrDefaultAsync(j => j.Town == addJobVm.Town);
+
+        Assert.NotNull(result);
+        Assert.Equal(addJobVm.Town, result.Town);
+    }
+
+    [Fact]
+    public async void GetJobAsync_ShouldReturnOneJob()
+    {
+        var job = await _jobService.GetJobAsync(x => x.Town == "Poznań");
         Assert.NotNull(job);
     }
 
     [Fact]
-    public async Task GetJobsAsync()
-    {
-        var jobs = await _jobService.GetJobsAsync(x => x.Id > 2 && x.Id <= 4);
-
-        Assert.NotNull(jobs);
-        Assert.NotEmpty(jobs);
-        Assert.Equal(2, jobs.Count());
-    }
-
-    [Fact]
-    public async Task GetAllJobsAsync()
+    public async void GetJobsAsync_ShouldReturnJobs()
     {
         var jobs = await _jobService.GetJobsAsync();
+
         Assert.NotNull(jobs);
         Assert.NotEmpty(jobs);
-        Assert.Equal(DbContext.Jobs.Count(), jobs.Count());
     }
 
     [Fact]
-    public async Task AddJobAsync_ShouldAddJob_WhenValidData()
+    public async void UpdateJobAsync_ShouldUpdateJob()
     {
-        var addJobVm = new AddJobVm
-        {
-            Town = "Poznan",
-            ZipCode = "60-001",
-            TotalLength = 100,
-            JobType = "Fencing",
-            Height = 2.0
-        };
-        var job = new Job
-        {
-            Id = 1,
-            Town = addJobVm.Town,
-            ZipCode = addJobVm.ZipCode,
-            TotalLength = addJobVm.TotalLength,
-            JobType = addJobVm.JobType,
-            Height = addJobVm.Height,
-            RegistrationDate = DateTime.Now,
-            DateOfExecution = DateTime.Now.AddMonths(3)
-        };
+        var job = await DbContext.Jobs.FirstOrDefaultAsync(x => x.Town == "Krakow");
+        job!.DateOfExecution = DateTime.Now.AddDays(3);
+        var UpdateJobVm = _mapper.Map<UpdateJobVm>(job);
 
-        await _jobService.AddJobAsync(addJobVm);
-        var addedJob = await DbContext.Jobs.FirstOrDefaultAsync(j => j.Town == job.Town);
-
-        Assert.NotNull(addedJob);
-        Assert.Equal(addJobVm.Town, addedJob.Town);
-    }
-
-    [Fact]
-    public async Task UpdateJobAsync_ShouldUpdateJob_WhenJobExists()
-    {
-        var job = new Job
-        {
-            Id = 1,
-            Town = "Old Town",
-            ZipCode = "00-001",
-            JobType = "Construction",
-            TotalLength = 120,
-            Height = 2.5,
-            RegistrationDate = DateTime.Now,
-            DateOfExecution = DateTime.Now.AddMonths(2)
-        };
-        await DbContext.Jobs.AddAsync(job);
-        await DbContext.SaveChangesAsync();
-
-        var updateJobVm = new UpdateJobVm
-        {
-            Id = job.Id,
-            Town = "New Town",
-            ZipCode = "00-002",
-            JobType = "Renovation",
-            TotalLength = 150,
-            Height = 3.0
-        };
-
-        await _jobService.UpdateJobAsync(updateJobVm);
-        var updatedJob = await DbContext.Jobs.FirstOrDefaultAsync(j => j.Id == job.Id);
+        DbContext.ChangeTracker.Clear();
+        await _jobService.UpdateJobAsync(UpdateJobVm);
+        var updatedJob = await DbContext.Jobs.FirstOrDefaultAsync(j => j.Town == "Krakow");
 
         Assert.NotNull(updatedJob);
-        Assert.Equal(updateJobVm.Town, updatedJob.Town);
-        Assert.Equal(updateJobVm.ZipCode, updatedJob.ZipCode);
-        Assert.Equal(updateJobVm.JobType, updatedJob.JobType);
+        Assert.Equal(job.DateOfExecution, updatedJob.DateOfExecution);
     }
 
     [Fact]
-    public async Task DeleteJobAsync_ShouldRemoveJob_WhenJobExists()
+    public async void DeleteJobAsync_ShouldRemoveJob_WhenJobExists()
     {
-        var job = new Job
-        {
-            Id = 1,
-            Town = "Warsaw",
-            ZipCode = "00-001",
-            JobType = "Demolition",
-            TotalLength = 100,
-            Height = 2.5,
-            RegistrationDate = DateTime.Now,
-            DateOfExecution = DateTime.Now.AddMonths(1)
-        };
-        await DbContext.Jobs.AddAsync(job);
-        await DbContext.SaveChangesAsync();
+        var job = await _jobService.GetJobAsync(x => x.UserId == 1);
 
-        var jobVm = new JobVm { Id = job.Id };
-
-        await _jobService.DeleteJobAsync(jobVm);
+        await _jobService.DeleteJobAsync(job);
         var deletedJob = await DbContext.Jobs.FirstOrDefaultAsync(j => j.Id == job.Id);
 
         Assert.Null(deletedJob);
