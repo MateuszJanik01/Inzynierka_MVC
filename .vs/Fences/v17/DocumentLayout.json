@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}|Fences.Tests\\Fences.Tests.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.tests\\unittests\\jobserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}|Fences.Tests\\Fences.Tests.csproj|solutionrelative:fences.tests\\unittests\\jobserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B8C044E-AB7B-4032-B88D-644DB29E79EE}|Fences.Services\\Fences.Services.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.services\\configuration\\automapperprofiles\\mainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B8C044E-AB7B-4032-B88D-644DB29E79EE}|Fences.Services\\Fences.Services.csproj|solutionrelative:fences.services\\configuration\\automapperprofiles\\mainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}|Fences.Tests\\Fences.Tests.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.tests\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}|Fences.Tests\\Fences.Tests.csproj|solutionrelative:fences.tests\\unittests\\baseunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27FFD0CE-6C76-4208-966D-55B582C591B1}|Fences.ViewModels\\Fences.ViewModels.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.viewmodels\\vm\\addjobvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27FFD0CE-6C76-4208-966D-55B582C591B1}|Fences.ViewModels\\Fences.ViewModels.csproj|solutionrelative:fences.viewmodels\\vm\\addjobvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}|Fences.Tests\\Fences.Tests.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.tests\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDBCB631-4B74-4AE8-B2B3-D9A62B37BCA1}|Fences.Tests\\Fences.Tests.csproj|solutionrelative:fences.tests\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|c:\\users\\janik\\documents\\studia\\in\u017Cynierka\\page mvc\\fences.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56502768-491C-4B6F-9239-C8E820969415}|Fences.Web\\Fences.Web.csproj|solutionrelative:fences.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 227,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Fences.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAwwG4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv24AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T14:15:19.561Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ExternalLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "RelativeDocumentMoniker": "Fences.Web\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
@@ -68,7 +60,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T14:29:23.504Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Fences.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Web\\Program.cs",
+              "RelativeToolTip": "Fences.Web\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:07:08.328Z",
               "EditorCaption": ""
             },
             {
@@ -81,16 +85,11 @@
               "RelativeToolTip": "Fences.Services\\Configuration\\AutoMapperProfiles\\MainProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:14:38.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-12-15T22:14:38.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BaseUnitTests.cs",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\UnitTests\\BaseUnitTests.cs",
               "RelativeDocumentMoniker": "Fences.Tests\\UnitTests\\BaseUnitTests.cs",
@@ -98,87 +97,19 @@
               "RelativeToolTip": "Fences.Tests\\UnitTests\\BaseUnitTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:53:16.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T21:53:16.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\Startup.cs",
               "RelativeDocumentMoniker": "Fences.Tests\\Startup.cs",
               "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\Startup.cs",
               "RelativeToolTip": "Fences.Tests\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:43:14.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JobServiceUnitTests.cs",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\UnitTests\\JobServiceUnitTests.cs",
-              "RelativeDocumentMoniker": "Fences.Tests\\UnitTests\\JobServiceUnitTests.cs",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\UnitTests\\JobServiceUnitTests.cs",
-              "RelativeToolTip": "Fences.Tests\\UnitTests\\JobServiceUnitTests.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwEIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:09:25.779Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "049167b7-5186-45f1-b821-7d5f963c9270",
-        "Display": 1,
-        "X": 312,
-        "Y": 253,
-        "Width": 1192,
-        "Height": 590,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\Extensions.cs",
-              "RelativeDocumentMoniker": "Fences.Tests\\Extensions.cs",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.Tests\\Extensions.cs",
-              "RelativeToolTip": "Fences.Tests\\Extensions.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAQwBMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T10:55:03.454Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddJobVm.cs",
-              "DocumentMoniker": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.ViewModels\\VM\\AddJobVm.cs",
-              "RelativeDocumentMoniker": "Fences.ViewModels\\VM\\AddJobVm.cs",
-              "ToolTip": "C:\\Users\\janik\\Documents\\Studia\\In\u017Cynierka\\page MVC\\Fences.ViewModels\\VM\\AddJobVm.cs",
-              "RelativeToolTip": "Fences.ViewModels\\VM\\AddJobVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:38:32.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T21:43:14.587Z"
             }
           ]
         }
