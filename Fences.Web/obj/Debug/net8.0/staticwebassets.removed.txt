@@ -1,8 +1,0 @@
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\12_XL.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\13_XL.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\14.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\15.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\16.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\17.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\18_XL.jpeg
-C:\Users\janik\Documents\Studia\Inżynierka\page MVC\Fences.Web\wwwroot\img\19_XL.jpeg

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fences.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+defb3bda82bb5a3ac400512c2cb6fdd85dd2497c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b250ed8891cb007e9a7a8a91a7dcc56bb68e557f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fences.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fences.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BQQT9NuvhzQUvCiCWtXgjj/BTkifMBdlK/u3k5TSpFg=",
+  "Hash": "5MWOxQPBHXRPI8B0nQ4CVMD1apDZEx2Xlqu7jjOjz/M=",
   "Source": "Fences.Web",
   "BasePath": "_content/Fences.Web",
   "Mode": "Default",
@@ -1571,12 +1571,12 @@
       "OriginalItemSpec": "wwwroot\\img\\12_SM.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/12_XL#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/12_XL#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1589,7 +1589,7 @@
       "Integrity": "Z6fLsVBwPDylmcxrFDBDHJnVHoZXx3n06Qa7sJ8R540=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\12_XL.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\12_XL.jpg"
     },
     {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_SM.jpg",
@@ -1613,12 +1613,12 @@
       "OriginalItemSpec": "wwwroot\\img\\13_SM.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/13_XL#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/13_XL#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1631,15 +1631,15 @@
       "Integrity": "Q/yjgZX/JTvAkF3UjgV5GXPPBlafUdS7QW3mnlqo8Ew=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\13_XL.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\13_XL.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/14#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/14#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1652,15 +1652,15 @@
       "Integrity": "/j/NgOcXarQeCQQNFboc8Py3koTYgKRC+/sMarnw+2w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\14.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\14.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/15#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/15#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1673,15 +1673,15 @@
       "Integrity": "WoudYnj40xLyNdUM4ov5mMQFUmLufRjSWoV8nFWQ2Jc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\15.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\15.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/16#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/16#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1694,15 +1694,15 @@
       "Integrity": "bgauSDDw6cTYSctb8QmiF7LYOf0NmY8k1ZUqI93F+2g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\16.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\16.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/17#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/17#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1715,7 +1715,7 @@
       "Integrity": "GkHZbZSxjBKoqI25rgfWpTOkkmHNCGSrBD36PBcQfYc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\17.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\17.jpg"
     },
     {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_SM.jpg",
@@ -1739,12 +1739,12 @@
       "OriginalItemSpec": "wwwroot\\img\\18_SM.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/18_XL#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/18_XL#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1757,7 +1757,7 @@
       "Integrity": "Tm59kqsRwgCpDH/f2xP96Cvd2kiyhtCxl+Jd2zkRWxg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\18_XL.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\18_XL.jpg"
     },
     {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_SM.jpg",
@@ -1781,12 +1781,12 @@
       "OriginalItemSpec": "wwwroot\\img\\19_SM.jpg"
     },
     {
-      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpeg",
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
       "BasePath": "_content/Fences.Web",
-      "RelativePath": "img/19_XL#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/19_XL#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1799,7 +1799,7 @@
       "Integrity": "ioOqLYUh8BC9fjlGSqBFLYCtfd7erlh1ijX57DK+g/E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\19_XL.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\19_XL.jpg"
     },
     {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\2_XL.jpg",
@@ -2705,6 +2705,195 @@
       "OriginalItemSpec": "wwwroot\\img\\30_XL.jpg"
     },
     {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\31_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/31_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8opcylsqmn",
+      "Integrity": "+CKaYdarFg47JM2WxdxnPt5P5lZ4e1lE04sOFx/stLY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\31_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\32_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/32_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d2mr13n2a3",
+      "Integrity": "dSUqJ0ePoL1zgrEF6qfibhi9PNdoskOsDKthyIe/zsg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\32_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\33_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/33_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mjrkx64fnc",
+      "Integrity": "jp7Kn0KpZLnrYkTnbZo0tGltYNf37qUgZaOBRq8RyNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\33_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\34_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/34_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i4kbsyhkt",
+      "Integrity": "NnGzG/g4SVTXgBr0kgWwz3Qs5fsf1f/XQC4ENOtTrxQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\34_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\35_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/35_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hhij944l1b",
+      "Integrity": "VZ0j1NhT/IdL5VCh3QPDjMSUbTXOImqO2ieuZgU2fv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\35_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\36_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/36_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rd825j2s04",
+      "Integrity": "Efimh2b9sTexAiqDKXaijR0iA86zcbLa4mwGo8pZj1M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\36_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\37_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/37_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qrldvzt2nx",
+      "Integrity": "duqUDzzaHXsyw0pZkKXk0mthyQejYT+HkNV6bycH7xs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\37_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\38_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/38_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qwmgd2w45t",
+      "Integrity": "BrMd8Dy+Z3v77R4uX6QLEtocKYKLMK5m1WET1r5i/Xo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\38_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\39_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/39_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1x549gqto4",
+      "Integrity": "9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\39_XL.jpg"
+    },
+    {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\4.jpg",
       "SourceId": "Fences.Web",
       "SourceType": "Discovered",
@@ -2724,6 +2913,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\40_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/40_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f0n9rf54hk",
+      "Integrity": "v8MfaNX5CVZuTCul0TdZOCOH0CSRFWBlJ+DZwP1ZtpI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\40_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\41_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/41_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1x549gqto4",
+      "Integrity": "9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\41_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\42_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/42_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlwnlxcu2f",
+      "Integrity": "yp0YW7CnemgLG2S0SkpT039ZtvTp0L4K+7XO57Km11Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\42_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\43_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/43_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ti895bl4rb",
+      "Integrity": "m+sXY1ref/frN71LC5IdxXPhREG8OY5EwteSAoV8CBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\43_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\44_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/44_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7jucjuxc1l",
+      "Integrity": "k2CQXFR592Vk7epyLjUPRfYij0pzGo8cvtyi5SsiL9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\44_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\45_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/45_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "do1sxn2es3",
+      "Integrity": "g+t7bkxdJeWj0AbRHU+mj+I21Et6kYhcK+p99jv4fbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\45_XL.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\46_XL.jpg",
+      "SourceId": "Fences.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\",
+      "BasePath": "_content/Fences.Web",
+      "RelativePath": "img/46_XL#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5jjfq7vydu",
+      "Integrity": "X6kzZe3GGZ2mvxvBgxsOnFZu9wLizauMFFOdLOAXnEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\46_XL.jpg"
     },
     {
       "Identity": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\5.jpg",
@@ -7566,8 +7902,8 @@
       ]
     },
     {
-      "Route": "img/12_XL.5xbdn9ebma.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpeg",
+      "Route": "img/12_XL.5xbdn9ebma.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7602,7 +7938,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/12_XL.jpeg"
+          "Value": "img/12_XL.jpg"
         },
         {
           "Name": "integrity",
@@ -7611,8 +7947,8 @@
       ]
     },
     {
-      "Route": "img/12_XL.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpeg",
+      "Route": "img/12_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\12_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7730,8 +8066,8 @@
       ]
     },
     {
-      "Route": "img/13_XL.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpeg",
+      "Route": "img/13_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7767,8 +8103,8 @@
       ]
     },
     {
-      "Route": "img/13_XL.laofrw6sj7.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpeg",
+      "Route": "img/13_XL.laofrw6sj7.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\13_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7803,7 +8139,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/13_XL.jpeg"
+          "Value": "img/13_XL.jpg"
         },
         {
           "Name": "integrity",
@@ -7812,8 +8148,8 @@
       ]
     },
     {
-      "Route": "img/14.ewfq1bgnbe.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpeg",
+      "Route": "img/14.ewfq1bgnbe.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7848,7 +8184,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/14.jpeg"
+          "Value": "img/14.jpg"
         },
         {
           "Name": "integrity",
@@ -7857,8 +8193,8 @@
       ]
     },
     {
-      "Route": "img/14.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpeg",
+      "Route": "img/14.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7894,8 +8230,8 @@
       ]
     },
     {
-      "Route": "img/15.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpeg",
+      "Route": "img/15.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7931,8 +8267,8 @@
       ]
     },
     {
-      "Route": "img/15.mcqxx890sd.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpeg",
+      "Route": "img/15.mcqxx890sd.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7967,7 +8303,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/15.jpeg"
+          "Value": "img/15.jpg"
         },
         {
           "Name": "integrity",
@@ -7976,8 +8312,8 @@
       ]
     },
     {
-      "Route": "img/16.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpeg",
+      "Route": "img/16.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8013,8 +8349,8 @@
       ]
     },
     {
-      "Route": "img/16.qu4gd4k68p.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpeg",
+      "Route": "img/16.qu4gd4k68p.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8049,7 +8385,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/16.jpeg"
+          "Value": "img/16.jpg"
         },
         {
           "Name": "integrity",
@@ -8058,8 +8394,8 @@
       ]
     },
     {
-      "Route": "img/17.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpeg",
+      "Route": "img/17.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8095,8 +8431,8 @@
       ]
     },
     {
-      "Route": "img/17.ytbkee4tfp.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpeg",
+      "Route": "img/17.ytbkee4tfp.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\17.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8131,7 +8467,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/17.jpeg"
+          "Value": "img/17.jpg"
         },
         {
           "Name": "integrity",
@@ -8222,8 +8558,8 @@
       ]
     },
     {
-      "Route": "img/18_XL.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpeg",
+      "Route": "img/18_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8259,8 +8595,8 @@
       ]
     },
     {
-      "Route": "img/18_XL.qa73yiuemy.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpeg",
+      "Route": "img/18_XL.qa73yiuemy.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\18_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8295,7 +8631,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/18_XL.jpeg"
+          "Value": "img/18_XL.jpg"
         },
         {
           "Name": "integrity",
@@ -8386,8 +8722,8 @@
       ]
     },
     {
-      "Route": "img/19_XL.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpeg",
+      "Route": "img/19_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8423,8 +8759,8 @@
       ]
     },
     {
-      "Route": "img/19_XL.yhvwd2ag9a.jpeg",
-      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpeg",
+      "Route": "img/19_XL.yhvwd2ag9a.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\19_XL.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8459,7 +8795,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/19_XL.jpeg"
+          "Value": "img/19_XL.jpg"
         },
         {
           "Name": "integrity",
@@ -11994,6 +12330,744 @@
       ]
     },
     {
+      "Route": "img/31_XL.8opcylsqmn.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\31_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "372017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CKaYdarFg47JM2WxdxnPt5P5lZ4e1lE04sOFx/stLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8opcylsqmn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/31_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CKaYdarFg47JM2WxdxnPt5P5lZ4e1lE04sOFx/stLY="
+        }
+      ]
+    },
+    {
+      "Route": "img/31_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\31_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "372017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CKaYdarFg47JM2WxdxnPt5P5lZ4e1lE04sOFx/stLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CKaYdarFg47JM2WxdxnPt5P5lZ4e1lE04sOFx/stLY="
+        }
+      ]
+    },
+    {
+      "Route": "img/32_XL.d2mr13n2a3.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\32_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dSUqJ0ePoL1zgrEF6qfibhi9PNdoskOsDKthyIe/zsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d2mr13n2a3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/32_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dSUqJ0ePoL1zgrEF6qfibhi9PNdoskOsDKthyIe/zsg="
+        }
+      ]
+    },
+    {
+      "Route": "img/32_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\32_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dSUqJ0ePoL1zgrEF6qfibhi9PNdoskOsDKthyIe/zsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dSUqJ0ePoL1zgrEF6qfibhi9PNdoskOsDKthyIe/zsg="
+        }
+      ]
+    },
+    {
+      "Route": "img/33_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\33_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "650230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jp7Kn0KpZLnrYkTnbZo0tGltYNf37qUgZaOBRq8RyNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jp7Kn0KpZLnrYkTnbZo0tGltYNf37qUgZaOBRq8RyNg="
+        }
+      ]
+    },
+    {
+      "Route": "img/33_XL.mjrkx64fnc.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\33_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "650230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jp7Kn0KpZLnrYkTnbZo0tGltYNf37qUgZaOBRq8RyNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mjrkx64fnc"
+        },
+        {
+          "Name": "label",
+          "Value": "img/33_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jp7Kn0KpZLnrYkTnbZo0tGltYNf37qUgZaOBRq8RyNg="
+        }
+      ]
+    },
+    {
+      "Route": "img/34_XL.2i4kbsyhkt.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\34_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "669641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NnGzG/g4SVTXgBr0kgWwz3Qs5fsf1f/XQC4ENOtTrxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i4kbsyhkt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/34_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NnGzG/g4SVTXgBr0kgWwz3Qs5fsf1f/XQC4ENOtTrxQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/34_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\34_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "669641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NnGzG/g4SVTXgBr0kgWwz3Qs5fsf1f/XQC4ENOtTrxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NnGzG/g4SVTXgBr0kgWwz3Qs5fsf1f/XQC4ENOtTrxQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/35_XL.hhij944l1b.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\35_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VZ0j1NhT/IdL5VCh3QPDjMSUbTXOImqO2ieuZgU2fv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhij944l1b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/35_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VZ0j1NhT/IdL5VCh3QPDjMSUbTXOImqO2ieuZgU2fv8="
+        }
+      ]
+    },
+    {
+      "Route": "img/35_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\35_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VZ0j1NhT/IdL5VCh3QPDjMSUbTXOImqO2ieuZgU2fv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VZ0j1NhT/IdL5VCh3QPDjMSUbTXOImqO2ieuZgU2fv8="
+        }
+      ]
+    },
+    {
+      "Route": "img/36_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\36_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "676501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Efimh2b9sTexAiqDKXaijR0iA86zcbLa4mwGo8pZj1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Efimh2b9sTexAiqDKXaijR0iA86zcbLa4mwGo8pZj1M="
+        }
+      ]
+    },
+    {
+      "Route": "img/36_XL.rd825j2s04.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\36_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "676501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Efimh2b9sTexAiqDKXaijR0iA86zcbLa4mwGo8pZj1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:40:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rd825j2s04"
+        },
+        {
+          "Name": "label",
+          "Value": "img/36_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Efimh2b9sTexAiqDKXaijR0iA86zcbLa4mwGo8pZj1M="
+        }
+      ]
+    },
+    {
+      "Route": "img/37_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\37_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "692561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"duqUDzzaHXsyw0pZkKXk0mthyQejYT+HkNV6bycH7xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:41:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-duqUDzzaHXsyw0pZkKXk0mthyQejYT+HkNV6bycH7xs="
+        }
+      ]
+    },
+    {
+      "Route": "img/37_XL.qrldvzt2nx.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\37_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "692561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"duqUDzzaHXsyw0pZkKXk0mthyQejYT+HkNV6bycH7xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:41:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qrldvzt2nx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/37_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-duqUDzzaHXsyw0pZkKXk0mthyQejYT+HkNV6bycH7xs="
+        }
+      ]
+    },
+    {
+      "Route": "img/38_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\38_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "524812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BrMd8Dy+Z3v77R4uX6QLEtocKYKLMK5m1WET1r5i/Xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrMd8Dy+Z3v77R4uX6QLEtocKYKLMK5m1WET1r5i/Xo="
+        }
+      ]
+    },
+    {
+      "Route": "img/38_XL.qwmgd2w45t.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\38_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "524812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BrMd8Dy+Z3v77R4uX6QLEtocKYKLMK5m1WET1r5i/Xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qwmgd2w45t"
+        },
+        {
+          "Name": "label",
+          "Value": "img/38_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrMd8Dy+Z3v77R4uX6QLEtocKYKLMK5m1WET1r5i/Xo="
+        }
+      ]
+    },
+    {
+      "Route": "img/39_XL.1x549gqto4.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\39_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6026511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:46:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1x549gqto4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/39_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo="
+        }
+      ]
+    },
+    {
+      "Route": "img/39_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\39_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6026511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:46:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo="
+        }
+      ]
+    },
+    {
       "Route": "img/4.iiix83bgcr.jpg",
       "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\4.jpg",
       "Selectors": [],
@@ -12072,6 +13146,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-BoA5lyYugtP1oiyBjoblNiH7MZEOo1sshe9gpxuHlUQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/40_XL.f0n9rf54hk.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\40_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4918015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v8MfaNX5CVZuTCul0TdZOCOH0CSRFWBlJ+DZwP1ZtpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:37:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0n9rf54hk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/40_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v8MfaNX5CVZuTCul0TdZOCOH0CSRFWBlJ+DZwP1ZtpI="
+        }
+      ]
+    },
+    {
+      "Route": "img/40_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\40_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4918015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v8MfaNX5CVZuTCul0TdZOCOH0CSRFWBlJ+DZwP1ZtpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:37:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v8MfaNX5CVZuTCul0TdZOCOH0CSRFWBlJ+DZwP1ZtpI="
+        }
+      ]
+    },
+    {
+      "Route": "img/41_XL.1x549gqto4.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\41_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6026511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:46:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1x549gqto4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/41_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo="
+        }
+      ]
+    },
+    {
+      "Route": "img/41_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\41_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6026511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:46:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9b+wBgX1pWRE9Oh4VIydLnlKCujjB7WXG5VaiK4L6Vo="
+        }
+      ]
+    },
+    {
+      "Route": "img/42_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\42_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6072365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yp0YW7CnemgLG2S0SkpT039ZtvTp0L4K+7XO57Km11Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:47:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yp0YW7CnemgLG2S0SkpT039ZtvTp0L4K+7XO57Km11Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/42_XL.mlwnlxcu2f.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\42_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6072365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yp0YW7CnemgLG2S0SkpT039ZtvTp0L4K+7XO57Km11Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:47:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlwnlxcu2f"
+        },
+        {
+          "Name": "label",
+          "Value": "img/42_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yp0YW7CnemgLG2S0SkpT039ZtvTp0L4K+7XO57Km11Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/43_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\43_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4550742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m+sXY1ref/frN71LC5IdxXPhREG8OY5EwteSAoV8CBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:47:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m+sXY1ref/frN71LC5IdxXPhREG8OY5EwteSAoV8CBQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/43_XL.ti895bl4rb.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\43_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4550742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m+sXY1ref/frN71LC5IdxXPhREG8OY5EwteSAoV8CBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:47:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti895bl4rb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/43_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m+sXY1ref/frN71LC5IdxXPhREG8OY5EwteSAoV8CBQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/44_XL.7jucjuxc1l.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\44_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4255555"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k2CQXFR592Vk7epyLjUPRfYij0pzGo8cvtyi5SsiL9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:48:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7jucjuxc1l"
+        },
+        {
+          "Name": "label",
+          "Value": "img/44_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k2CQXFR592Vk7epyLjUPRfYij0pzGo8cvtyi5SsiL9o="
+        }
+      ]
+    },
+    {
+      "Route": "img/44_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\44_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4255555"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k2CQXFR592Vk7epyLjUPRfYij0pzGo8cvtyi5SsiL9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:48:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k2CQXFR592Vk7epyLjUPRfYij0pzGo8cvtyi5SsiL9o="
+        }
+      ]
+    },
+    {
+      "Route": "img/45_XL.do1sxn2es3.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\45_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5521925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+t7bkxdJeWj0AbRHU+mj+I21Et6kYhcK+p99jv4fbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "do1sxn2es3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/45_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+t7bkxdJeWj0AbRHU+mj+I21Et6kYhcK+p99jv4fbU="
+        }
+      ]
+    },
+    {
+      "Route": "img/45_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\45_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5521925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+t7bkxdJeWj0AbRHU+mj+I21Et6kYhcK+p99jv4fbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+t7bkxdJeWj0AbRHU+mj+I21Et6kYhcK+p99jv4fbU="
+        }
+      ]
+    },
+    {
+      "Route": "img/46_XL.5jjfq7vydu.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\46_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2180574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X6kzZe3GGZ2mvxvBgxsOnFZu9wLizauMFFOdLOAXnEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:49:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5jjfq7vydu"
+        },
+        {
+          "Name": "label",
+          "Value": "img/46_XL.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X6kzZe3GGZ2mvxvBgxsOnFZu9wLizauMFFOdLOAXnEM="
+        }
+      ]
+    },
+    {
+      "Route": "img/46_XL.jpg",
+      "AssetFile": "C:\\Users\\janik\\Documents\\Studia\\Inżynierka\\page MVC\\Fences.Web\\wwwroot\\img\\46_XL.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2180574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X6kzZe3GGZ2mvxvBgxsOnFZu9wLizauMFFOdLOAXnEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 17:49:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X6kzZe3GGZ2mvxvBgxsOnFZu9wLizauMFFOdLOAXnEM="
         }
       ]
     },
