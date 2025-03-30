@@ -642,7 +642,7 @@
         },
         "runtime": {
           "Fences.DAL.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -653,7 +653,7 @@
         },
         "runtime": {
           "Fences.Model.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -664,7 +664,7 @@
         },
         "runtime": {
           "Fences.ViewModels.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
